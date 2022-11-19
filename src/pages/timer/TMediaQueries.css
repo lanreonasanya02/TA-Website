@@ -1,0 +1,23 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .timer-section {
+    padding: 0 10px;
+  }
+
+  .timer {
+    padding: 12px 10px 0;
+  }
+
+  .click-to-register {
+    display: none;
+  }
+
+  .timer .cohort,
+  .timer .time {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .close-icon {
+    text-align: end;
+  }
+}

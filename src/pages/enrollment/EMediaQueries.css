@@ -1,0 +1,58 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .enroll {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+      url(../../images/class-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+  }
+
+  .enroll .enroll-heading h1 {
+    margin: 5rem 0 5rem;
+    font-size: 2rem;
+  }
+
+  .enroll .enroll-form h1 {
+    padding: 0;
+    font-weight: 700;
+  }
+
+  .enroll .subscription {
+    flex-direction: column-reverse;
+    /* display: block; */
+    margin: 3rem 0;
+  }
+
+  .subscription .sub-form,
+  .subscription .information {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .sub-form form label {
+    width: 15%;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 14px;
+  }
+
+  .sub-form form input,
+  .sub-form form select {
+    width: 70%;
+    outline: none;
+    padding: 10px 12px;
+    margin-left: 1rem;
+  }
+
+  .sub-form .enroll-btn .register,
+  .enroll-btn a {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+  }
+
+  .enroll-btn {
+    padding: 0 5rem;
+  }
+}

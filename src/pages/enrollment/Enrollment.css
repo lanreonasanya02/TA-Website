@@ -1,0 +1,131 @@
+.enroll {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url(../../images/class.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-position: center;
+}
+
+.enroll .enroll-heading h1 {
+  color: #ffffff;
+  margin: 9rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.enroll .enroll-form {
+  background-color: #ffffff;
+  color: #000;
+  padding-top: 2rem;
+}
+
+.enroll .go-back a span,
+.go-back-icon {
+  color: #20cfc4;
+}
+
+.enroll .go-back a span:hover {
+  color: #000;
+}
+
+.enroll .enroll-form h1 {
+  padding: 0 10rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.enroll .subscription {
+  display: flex;
+  margin: 5rem 0;
+}
+
+.subscription .sub-form {
+  width: 65%;
+}
+
+.sub-form form label {
+  width: 20%;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+
+.sub-form form input,
+.sub-form form select {
+  width: 60%;
+  outline: none;
+  padding: 10px 12px;
+  margin-left: 4rem;
+}
+
+.sub-form form select {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+}
+
+.sub-form .enroll-btn .register {
+  color: #000;
+  border: 3px solid #20cfc4;
+  padding: 10px 2rem;
+  margin: 2rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(29, 205, 254, 0.6),
+    rgba(32, 207, 196, 0.6)
+  );
+  margin-right: 1rem;
+  width: 25%;
+  border-radius: 8px;
+}
+
+.sub-form .enroll-btn .download-btn {
+  color: #20cfc4;
+  border: 3px solid #20cfc4;
+  padding: 10px 2rem;
+  margin: 2rem 0;
+  background: none;
+  border-radius: 8px;
+}
+
+.sub-form .enroll-btn .enroll-submit:hover {
+  border: 3px double #20cfc4;
+  background: none;
+  color: #20cfc4;
+}
+
+.sub-form .enroll-btn .download-btn:hover {
+  background: linear-gradient(
+    to right,
+    rgba(29, 205, 254, 0.6),
+    rgba(32, 207, 196, 0.6)
+  );
+  color: #000;
+}
+
+.sub-form .enroll-btn {
+  text-align: center;
+}
+
+.subscription .information {
+  background: linear-gradient(
+    to right,
+    rgba(29, 205, 254, 0.6),
+    rgba(32, 207, 196, 0.6)
+  );
+  padding: 2rem 1rem;
+  width: 35%;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+.subscription .information h5 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.subscription .information ul li {
+  margin-bottom: 1.5rem;
+  list-style-type: square;
+}

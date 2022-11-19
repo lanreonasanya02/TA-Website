@@ -1,0 +1,190 @@
+.programmes {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/stones.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+}
+
+.programmes-hero {
+  color: #fff;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+
+.programmes-hero .programmes-hero-text .inner-text {
+  color: #20cfc4;
+  padding: 1rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .hero-text {
+  padding-right: 5rem;
+}
+
+.hero .hero-text .inner-text {
+  color: #20cfc4;
+}
+
+.hero .hero-form {
+  width: 90%;
+  justify-self: end;
+  border: 1px solid #fff;
+  padding: 3rem 4rem;
+  color: #fff;
+  border-radius: 5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(../../images/registration.webp);
+}
+
+.hero-form .heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 7px;
+  color: #20cfc4;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.hero-form input,
+.form-options {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  border-style: none;
+  background-color: #fff;
+}
+
+.hero-form .btn-enroll {
+  color: #000;
+  border: 1px double #20cfc4;
+  padding: 10px 2rem;
+  background: rgb(32, 207, 196);
+  width: 100%;
+}
+
+.hero-form .btn-enroll:hover {
+  background: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.after-hero {
+  background-color: #fff;
+}
+
+.after-hero-content {
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.after-hero-content h1 {
+  color: #000;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.after-hero-content h1,
+.after-hero-content > p {
+  text-align: center;
+}
+
+.after-hero-content h1 span {
+  border-bottom: 5px solid #20cfc4;
+  padding-bottom: 1rem;
+}
+
+.main-story-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.main-story-section .card {
+  width: 20rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 5px solid #20cfc4;
+  background-color: #fff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-story-section .card:hover {
+  background-color: #fff;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-story-section .image-text {
+  padding: 0;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.main-story-section .card .title-container {
+  height: 18%;
+  color: #20cfc4;
+}
+
+.main-story-section .card .category-cont p {
+  margin: auto;
+  font-weight: 600;
+}
+
+.main-story-section .card .body-container {
+  height: 40%;
+}
+
+.main-story-section .card .card-info {
+  height: 45vh;
+}
+
+.main-story-section .card .card-info p {
+  font-size: 13px;
+}
+
+.main-story-section .card .card-info .price {
+  font-size: 12px;
+  color: #000;
+}
+
+.main-story-section .card .card-info .price span {
+  color: #20cfc4;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+del {
+  color: #000;
+}
+
+.main-story-section .card .card-button span {
+  padding: 10px 4rem;
+  border: 2px double #20cfc4;
+  margin-bottom: 2rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #20cfc4;
+}
+
+.main-story-section .card .card-button span:hover {
+  color: #20cfc4;
+  background: none;
+}

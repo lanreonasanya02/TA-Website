@@ -1,0 +1,90 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .about {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url(../../images/group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-position: center;
+  }
+
+  .about .about-heading h1 {
+    color: #ffffff;
+    margin: 8rem 0 4rem;
+    font-size: 2rem;
+  }
+
+  .about .about-body {
+    padding: 1rem 0;
+  }
+
+  .about .about-heading h1 {
+    font-size: 2rem;
+  }
+
+  .about-content h1 span {
+    border-bottom: 5px solid #20cfc4;
+    padding-bottom: 1rem;
+  }
+
+  .about .about-body .brief {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .about .about-body .box4image,
+  .about .about-body .brief-image {
+    display: none;
+  }
+
+  .about .about-body .brief-text {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-end {
+    height: 120vh;
+  }
+
+  .nas,
+  .tewo {
+    flex-direction: column-reverse;
+  }
+
+  .nasiru,
+  .rita,
+  .tewogbade,
+  .chuks,
+  .sunday {
+    border-bottom: none;
+  }
+
+  .left-image img {
+    border-radius: 5rem;
+  }
+
+  .mobile-carou-text {
+    display: block;
+  }
+
+  .carou-text {
+    display: none;
+  }
+
+  .chuks img,
+  .tewogbade img {
+    width: 61%;
+  }
+
+  .sunday img {
+    width: 50%;
+  }
+
+  .nas img {
+    width: 45%;
+  }
+
+  .rita img {
+    width: 41%;
+  }
+}

@@ -1,0 +1,55 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+      url(../../images/call-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+  }
+
+  .contact .heading h1 {
+    margin: 8rem 0 4rem;
+    font-size: 2rem;
+  }
+
+  .contact .contact-headings {
+    color: #20cfc4;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .contact .headings-1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 3rem;
+  }
+
+  .mobile-top-paragraph {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .contact-hero {
+    display: none;
+  }
+
+  .mobile-hero-form {
+    display: block;
+    width: 100%;
+    justify-self: end;
+    border: 1px solid #fff;
+    padding: 3rem 2rem;
+    color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+      url(../../images/registration.webp);
+    height: 100%;
+  }
+
+  .mobile-hero-text {
+    display: block;
+    margin-top: 3rem;
+  }
+}

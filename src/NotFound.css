@@ -1,0 +1,12 @@
+.error-page {
+  background: url(./images/error.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.error-page h1 {
+  font-size: 8rem;
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+}

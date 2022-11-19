@@ -1,0 +1,94 @@
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(../../images/phone.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contact .heading h1 {
+  color: #fff;
+  margin: 10rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.mobile-hero-form,
+.mobile-hero-text {
+  display: none;
+}
+
+.contact .body {
+  background-color: #fff;
+}
+
+.contact .body-head {
+  padding: 2rem 0;
+}
+
+.contact .body-head p {
+  color: #000;
+  font-size: 1rem;
+}
+
+.contact-hero .contact-hero-text {
+  padding-right: 5rem;
+  text-align: left;
+}
+
+#contact-icon {
+  color: #20cfc4;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.hero .hero-form {
+  width: 90%;
+  justify-self: end;
+  border: 1px solid #fff;
+  padding: 3rem 4rem;
+  color: #fff;
+  border-radius: 5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(../../images/registration.webp);
+  height: 100%;
+}
+
+.socials .socials-icon {
+  color: #000;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+.socials .socials-icon:hover {
+  color: #20cfc4;
+}
+
+.socials .socials-icon1 {
+  margin-right: 2rem;
+}
+
+.contact form textarea {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.contact .contact-headings {
+  color: #20cfc4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact .headings-1 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+.contact .contact-headings span {
+  border-bottom: 5px solid #20cfc4;
+  padding-bottom: 1rem;
+}

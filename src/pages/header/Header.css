@@ -1,0 +1,78 @@
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/web_1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  font-size: 3rem;
+  color: #f1f1f1;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.head .head-content {
+  text-align: center;
+}
+
+.typewriter-effect {
+  color: #20cfc4;
+  font-size: 6rem;
+}
+
+.typewritter-fixed {
+  color: rgb(32, 207, 196);
+  font-weight: 100;
+}
+
+.head .h1-2 {
+  font-size: 1.2rem;
+}
+
+.head .btn-getstarted {
+  color: #000;
+  border: 3px double #20cfc4;
+  padding: 10px 2rem;
+  background: none;
+  width: 250px;
+}
+
+.btn-getstarted:hover {
+  color: #fff;
+  text-decoration: none;
+  border: 1px double #fff;
+  background: rgb(32, 207, 196);
+  padding: 10px 2rem;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn-getstarted span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.btn-getstarted span:after {
+  content: "\00bb \00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-getstarted:hover span {
+  padding-right: 35px;
+}
+
+.btn-getstarted:hover span:after {
+  opacity: 1;
+  right: 0;
+}

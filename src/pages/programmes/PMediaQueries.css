@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .programmes-hero {
+    display: none;
+  }
+
+  .after-hero {
+    background-color: #eee;
+  }
+
+  .after-hero-content {
+    padding: 2rem;
+  }
+
+  .after-hero-content h1 span {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .main-story-section {
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .main-story-section .card {
+    width: 100%;
+    margin-bottom: 4rem;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-story-section {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .main-story-section .card {
+    width: 18rem;
+  }
+
+  .main-story-section .card .card-info {
+    height: 40vh;
+  }
+}

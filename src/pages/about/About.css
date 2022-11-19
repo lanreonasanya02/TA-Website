@@ -1,0 +1,151 @@
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(../../images/group.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+}
+
+.about .about-heading h1 {
+  color: #ffffff;
+  margin: 10rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* .brief-text-head {
+  margin-bottom: 2rem;
+}
+
+.brief-text-head span {
+  border-bottom: 5px solid #20cfc4;
+  padding-bottom: 7px;
+} */
+
+.about .about-content h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-content h1 span {
+  border-bottom: 5px solid #20cfc4;
+  padding-bottom: 1rem;
+}
+
+.about .about-body {
+  background-color: #fff;
+  padding: 6rem 0 4rem;
+}
+
+.about .about-body .brief {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10rem;
+}
+
+.about .about-body .brief-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 3rem;
+}
+
+.about .about-body .actual-image2 {
+  width: 85%;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 5px double #20cfc4;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.about .about-body .actual-image2::selection {
+  background: none;
+}
+
+.about .about-body .brief-text {
+  align-self: center;
+  padding: 0 2rem;
+  text-align: justify;
+}
+
+.about .about-body .brief-text p .first-letter {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #20cfc4;
+  padding: 0;
+}
+
+/* Testimonials */
+.about-end {
+  background-color: rgb(67, 66, 66);
+  color: #fff;
+  padding: 3rem 0 0;
+  height: 95vh;
+}
+
+.left-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* .left-image img {
+  border-radius: 5rem;
+} */
+
+.carou-text {
+  align-self: center;
+}
+
+.nas .carou-text,
+.tewo .carou-text {
+  text-align: end;
+}
+
+.nasiru,
+.rita,
+.tewogbade,
+.chuks,
+.sunday {
+  border-bottom: 4px solid #20cfc4;
+}
+
+.carou-text > p {
+  margin-bottom: 2rem;
+}
+
+.mobile-carou-text {
+  display: none;
+}
+
+/* .previousBtn,
+.nextBtn,
+.carousel-control-prev-icon .previousBtn {
+  color: #000;
+} */
+
+/* FAQS */
+.about-faqs {
+  margin-top: 5rem;
+}
+
+.accordion-button {
+  border-style: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #20cfc4;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border: 2px solid #20cfc4;
+}
+
+.accordion-button:active {
+  border: 0;
+  border-color: #20cfc4;
+}

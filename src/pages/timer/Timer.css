@@ -1,0 +1,40 @@
+.timer-section {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  background: rgba(32, 207, 196, 0.4);
+}
+
+.timer {
+  display: flex;
+  padding: 7px 10px 0;
+  justify-content: center;
+}
+
+.timer .cohort {
+  margin-right: 1px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.timer .time {
+  display: flex;
+  margin-right: 4px;
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.timer .time p {
+  margin-left: 5px;
+}
+
+.close-icon {
+  color: rgb(255, 0, 0);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.close-icon:hover {
+  color: rgb(172, 118, 118);
+  cursor: pointer;
+}

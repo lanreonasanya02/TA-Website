@@ -1,0 +1,45 @@
+.navbar-brand {
+  width: 50%;
+}
+
+.navbar-brand img {
+  width: 30%;
+}
+
+.navbar-nav .link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.2rem;
+  justify-content: end;
+}
+
+.navbar-nav .link:hover {
+  color: #20cfc4;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.navbar-nav .current-active {
+  color: #20cfc4;
+  border-bottom: 3px solid #20cfc4;
+}
+
+.navbar-nav .contact-active {
+  color: #20cfc4;
+  border-bottom: 3px solid #20cfc4;
+}
+
+.navbar-nav .btn-hire {
+  color: #000;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(29, 205, 254), rgb(32, 207, 196));
+  border: 3px double #20cfc4;
+  padding: 10px 2rem;
+}
+
+.navbar-nav .btn-hire:hover {
+  color: #fff;
+  background: none;
+}
