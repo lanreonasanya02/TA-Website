@@ -108,24 +108,41 @@
 }
 
 .subscription .information {
+  width: 35%;
+}
+
+.subscription .information .notice {
   background: linear-gradient(
     to right,
     rgba(29, 205, 254, 0.6),
     rgba(32, 207, 196, 0.6)
   );
   padding: 2rem 1rem;
-  width: 35%;
   height: fit-content;
   border-radius: 8px;
 }
 
-.subscription .information h5 {
+.subscription .information .require {
+  background: linear-gradient(
+    to right,
+    rgba(111, 87, 113, 0.6),
+    rgba(78, 116, 114, 0.6)
+  );
+  padding: 2rem 1rem;
+  height: fit-content;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.subscription .information .notice h5,
+.subscription .information .require h5 {
   text-align: center;
   margin-bottom: 1.5rem;
   font-weight: 600;
 }
 
-.subscription .information ul li {
+.subscription .information .notice ul li,
+.subscription .information .require ul li {
   margin-bottom: 1.5rem;
   list-style-type: square;
 }

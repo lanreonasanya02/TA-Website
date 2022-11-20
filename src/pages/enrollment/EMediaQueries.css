@@ -45,6 +45,12 @@
     margin-left: 1rem;
   }
 
+  .subscription .sub-form,
+  .subscription .information {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
   .sub-form form select {
     border: 1px solid gray;
     box-shadow: none;
