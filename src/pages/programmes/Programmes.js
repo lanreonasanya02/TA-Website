@@ -80,6 +80,37 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
+                    Beginner class, 20 weeks at 15hrs/week
+                  </p>
+                </div>
+
+                <div className="card-body card-info">
+                  <div className="title-container">
+                    <h5 className="card-title mb-3 fw-bold title">
+                      Python Full-Stack Web Development
+                    </h5>
+                  </div>
+                  <div className="body-container">
+                    <p className="card-text text-muted desc">
+                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
+                      fanny pack 3 wolf moon street art photo booth before they
+                      sold out organic viral.
+                    </p>
+                  </div>
+
+                  <p className="card-text price" id="price">
+                    Price: <span className="ms-2 lead">NA</span>
+                  </p>
+                  <Link to="/programmes/enroll-course" className="card-button">
+                    <span>Enroll</span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Card 3 */}
+              <div className="card ">
+                <div className="card-header category-cont">
+                  <p className="image-text">
                     Beginner class, 12 weeks at 15hrs/week
                   </p>
                 </div>
@@ -110,7 +141,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 3 */}
+              {/* Card 4 */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -139,37 +170,6 @@ const Programmes = () => {
                     to="/programmes/back-end-web-development"
                     className="card-button"
                   >
-                    <span>Enroll</span>
-                  </Link>
-                </div>
-              </div>
-
-              {/* Card 4 */}
-              <div className="card ">
-                <div className="card-header category-cont">
-                  <p className="image-text">
-                    Beginner class, 20 weeks at 15hrs/week
-                  </p>
-                </div>
-
-                <div className="card-body card-info">
-                  <div className="title-container">
-                    <h5 className="card-title mb-3 fw-bold title">
-                      Python Full-Stack Web Development
-                    </h5>
-                  </div>
-                  <div className="body-container">
-                    <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
-                    </p>
-                  </div>
-
-                  <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">NA</span>
-                  </p>
-                  <Link to="/programmes/enroll-course" className="card-button">
                     <span>Enroll</span>
                   </Link>
                 </div>

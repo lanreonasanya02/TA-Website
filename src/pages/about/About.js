@@ -62,10 +62,9 @@ const About = () => {
               />
             </div>
           </div>
-
-          {/* <Skills /> */}
         </div>
 
+        {/* Testimonials */}
         <div className="about-end mt-5">
           <div className="container">
             <div className="container about-content">

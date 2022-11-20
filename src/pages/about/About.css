@@ -89,9 +89,10 @@
   justify-content: center;
 }
 
-/* .left-image img {
-  border-radius: 5rem;
-} */
+.left-image img {
+  /* border-radius: 5rem; */
+  border-bottom: 3px solid #20cfc4;
+}
 
 .carou-text {
   align-self: center;
@@ -102,13 +103,13 @@
   text-align: end;
 }
 
-.nasiru,
+/* .nasiru,
 .rita,
 .tewogbade,
 .chuks,
 .sunday {
   border-bottom: 4px solid #20cfc4;
-}
+} */
 
 .carou-text > p {
   margin-bottom: 2rem;
@@ -117,12 +118,6 @@
 .mobile-carou-text {
   display: none;
 }
-
-/* .previousBtn,
-.nextBtn,
-.carousel-control-prev-icon .previousBtn {
-  color: #000;
-} */
 
 /* FAQS */
 .about-faqs {
