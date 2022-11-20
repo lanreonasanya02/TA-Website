@@ -135,27 +135,44 @@ const EnrollmentDA = () => {
             </div>
 
             <div className="information">
-              <h5 className="">Important Information</h5>
+              <div className="require">
+                <h5 className="">Course Requirements</h5>
 
-              <ul>
-                <li>Your laptop will be your most important tool</li>
-                <li>
-                  English will be our main language so you should be fluent in
-                  speaking and writing
-                </li>
-                <li>
-                  A mail will be sent to your email after registering with steps
-                  to take on how to pay and enroll for the chosen course(s)
-                </li>
-                <li>
-                  After payment, please call 08136128748 to confirm your payment
-                  and get you onboard
-                </li>
-                <li>
-                  Classes will take place at No. 33a Odozie street, Ojodu
-                  Berger, Lagos State, Nigeria
-                </li>
-              </ul>
+                <ul>
+                  <li>Your laptop will be your most important tool</li>
+                  <li>
+                    English will be our main language so you should be fluent in
+                    speaking and writing
+                  </li>
+                  <li>
+                    A mail will be sent to your email after registering with
+                    steps to take on how to pay and enroll for the chosen
+                    course(s)
+                  </li>
+                </ul>
+              </div>
+
+              <div className="notice">
+                <h5 className="">Important Information</h5>
+
+                <ul>
+                  <li>Your laptop will be your most important tool</li>
+
+                  <li>
+                    A mail will be sent to your email after registering with
+                    steps to take on how to pay and enroll for the chosen
+                    course(s)
+                  </li>
+                  <li>
+                    After payment, please call 08136128748 to confirm your
+                    payment and get you onboard
+                  </li>
+                  <li>
+                    Classes will take place at No. 33a Odozie street, Ojodu
+                    Berger, Lagos State, Nigeria
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
