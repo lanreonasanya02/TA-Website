@@ -45,6 +45,11 @@
     margin-left: 1rem;
   }
 
+  .sub-form form select {
+    border: 1px solid gray;
+    box-shadow: none;
+  }
+
   .sub-form .enroll-btn .register,
   .enroll-btn a {
     width: 100%;
