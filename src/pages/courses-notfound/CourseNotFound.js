@@ -24,10 +24,15 @@ const NotFound = () => {
         style={{ height: "100vh" }}
       >
         <h1 className="display-1">Course Unavailable</h1> <br />
-        <p className="">Sorry! The course is not available at the moment.</p>
-        <p>
-          If you fill the form in the programmes page, then we promise to notify
-          you when the course becomes available.
+        <p className="lead">
+          Sorry! The course is not available at the moment.
+        </p>
+        <p className="lead">
+          If you{" "}
+          <Link to="/contact" className="link-to-contact">
+            fill the form in the Contact Us
+          </Link>{" "}
+          page, we promise to notify you when the course becomes available.
         </p>
         <br />
         <p className="container pt-4 text-white">

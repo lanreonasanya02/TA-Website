@@ -1,0 +1,88 @@
+.hire-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../images/hire.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130vh;
+}
+
+.hire-section-hero {
+  color: #fff;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+
+.hire-section-hero .hire-section-hero-text .inner-text {
+  color: #20cfc4;
+  padding: 1rem 0;
+}
+
+.hire-after-hero {
+  background-color: #fff;
+}
+
+.hire-after-hero-content {
+  padding: 2rem 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hire-after-hero-content h1 {
+  color: #000;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.hire-after-hero-content p {
+  margin: 3rem 0;
+}
+
+.hire-after-hero-content h1 span {
+  border-bottom: 5px solid #20cfc4;
+  padding-bottom: 1rem;
+}
+
+.hire-body {
+  display: flex;
+  padding: 4rem 0;
+}
+
+.hire-body .hire-left,
+.hire-body .hire-right {
+  width: 50%;
+}
+
+.hire-body .hire-left img {
+  width: 60%;
+  border-radius: 15rem;
+}
+
+.hire-body .hire-left {
+  margin: auto;
+}
+
+.hire-body form input,
+.hire-body form select,
+.hire-body form textarea {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 12px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.hire-body .request-techie {
+  border: 1px solid #20cfc4;
+  color: #fff;
+  background-color: #20cfc4;
+}
+
+.hire-body .request-techie:hover {
+  background: none;
+  color: #20cfc4;
+}

@@ -12,6 +12,7 @@ import EnrollmentJS from "./pages/enrollment/EnrollmentJS";
 import EnrollmentRJS from "./pages/enrollment/EnrollmentRJS";
 import EnrollmentDA from "./pages/enrollment/EnrollmentDA";
 import CourseNotFound from "./pages/courses-notfound/CourseNotFound";
+import Hire from "./pages/hire/Hire";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             path="/programmes/enroll-course"
             element={<CourseNotFound />}
           />
+          <Route path="hire-us" element={<Hire />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

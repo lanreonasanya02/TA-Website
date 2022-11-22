@@ -72,8 +72,8 @@ const Navbar = () => {
               >
                 <FiMapPin className="nav-icon" /> Contact
               </Link>
-              <Link className="nav-link btn btn-lg btn-hire px-5" to="/hire">
-                <FcBusinessman className="nav-icon" /> Hire Dev
+              <Link className="nav-link btn btn-lg btn-hire px-5" to="/hire-us">
+                <FcBusinessman className="nav-icon" /> Hire Us
               </Link>
             </div>
           </div>
@@ -84,24 +84,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <Link className="nav-link" to="#">
-  FAQs
-</Link> */
-}
-{
-  /* Mobile
-<button
-  style={{
-    padding: "1.5rem 1rem",
-    backgroundColor: "#B7D4D1",
-    border: "none",
-    borderRadius: "8px",
-  }}
-  type="button"
-  onClick={toggleClosed}
->
-  <Burger isClosed={isClosed} />
-</button> */
-}

@@ -1,17 +1,27 @@
 .course-error-page {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../../images/course-nf.jpg);
+    url(../../images/barrier.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .error-text {
-  margin-top: 5rem;
+  padding-top: 7rem;
 }
 
 .course-error-page h1 {
   font-size: 4rem;
   font-weight: bolder;
-  color: rgb(255, 0, 0);
+  color: #20cfc4;
+}
+
+.link-to-contact {
+  font-size: 1.2rem;
+  color: #20cfc4;
+}
+
+.link-to-contact:hover {
+  color: #fff;
+  text-decoration: underline;
 }
