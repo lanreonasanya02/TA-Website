@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .course-error-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url(../../images/course-nf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import "./CourseNotFound.css";
+import "./CouMediaQueries.css";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 
 const NotFound = () => {
