@@ -1,22 +1,17 @@
 import React from "react";
-import { useState } from "react";
 import "./Navbar.css";
 import "./NMediaQueries.css";
-import logo from "../../images/white logo.png";
+import logo from "../../images/logo-xmas.png";
 import { useLocation, Link } from "react-router-dom";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaUsers, FaGraduationCap } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";
 import { FcBusinessman } from "react-icons/fc";
-// import { BurgerSpin as Burger } from "react-burger-icons";
 
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
   const exactLocation = pathname.split("/");
-
-  // const [isClosed, setIsClosed] = useState(false);
-  // const toggleClosed = () => setIsClosed(!isClosed);
 
   return (
     <>

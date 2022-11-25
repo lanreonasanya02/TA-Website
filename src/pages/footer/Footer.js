@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/white logo.png";
+import logo from "../../images/logo-xmas.png";
 import "./Footer.css";
 import "./FMediaQueries.css";
 import { Link } from "react-router-dom";
