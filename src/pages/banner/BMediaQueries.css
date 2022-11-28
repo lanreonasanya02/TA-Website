@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .timer-section {
+    padding: 0 10px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .timers {
+    padding: 12px 10px 0;
+  }
+
+  .desktop-banner {
+    display: none;
+  }
+
+  .mobile-banner {
+    display: block;
+  }
+
+  .mobile-banner span {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .mobile-banner a {
+    font-size: 10px;
+  }
+
+  .timers .cohort {
+    font-size: 10px;
+    text-align: start;
+  }
+
+  .close-icon {
+    text-align: end;
+  }
+}

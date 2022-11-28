@@ -4,7 +4,7 @@ import "../header/Header.css";
 import "../header/HMediaQueries.css";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
-import Timer from "../timer/Timer";
+import Banner from "../banner/Banner";
 
 const Header = () => {
   // Scroll To top
@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <Timer />
+      <Banner />
       <header>
         <Navbar />
 
