@@ -40,7 +40,7 @@ const Timer = () => {
 
   return (
     <div className="timer-section">
-      <div className="timer text-white container">
+      <div className="timers text-white container">
         <div className=" cohort">
           <p>
             The next JavaScript Full-stack cohort begins on the 9th of January,
