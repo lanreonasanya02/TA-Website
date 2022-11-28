@@ -13,10 +13,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #20cfc4;
   font-size: 14px;
 }
 
 a:hover {
-  color: #20cfc4;
+  color: #fff;
 }

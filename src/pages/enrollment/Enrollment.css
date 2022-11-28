@@ -26,7 +26,7 @@
 }
 
 .enroll .go-back a span:hover {
-  color: #000;
+  color: #ff0000;
 }
 
 .enroll .enroll-form h1 {
@@ -145,4 +145,43 @@
 .subscription .information .require ul li {
   margin-bottom: 1.5rem;
   list-style-type: square;
+}
+
+/* Timer */
+.timer {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(111, 87, 113, 0.4),
+    rgba(78, 116, 114, 0.2)
+  );
+  padding: 1rem 1rem 0;
+  height: fit-content;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+.timer > p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.timer .time {
+  justify-content: center;
+  display: flex;
+  margin-right: 4px;
+}
+
+.timer .time p {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px 1.6rem;
+  font-size: 1.5rem;
+  margin-right: 7px;
+  color: #000;
+}
+
+.timer .time .period {
+  font-size: 7px;
 }

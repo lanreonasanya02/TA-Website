@@ -18,6 +18,34 @@ const EnrollmentFS = () => {
     window.history.back();
   };
 
+  // Countdown Timer
+  const countDown = () => {
+    const countDate = new Date("January 9, 2023 00:00:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent =
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
+    document.querySelector(".hour").textContent =
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
+    document.querySelector(".minute").textContent =
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
+    document.querySelector(".second").textContent =
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
+  };
+
+  setInterval(countDown, 1000);
+
   return (
     <section className="enroll">
       <Navbar />
@@ -27,7 +55,7 @@ const EnrollmentFS = () => {
 
       <div className="enroll-form">
         <div className="container">
-          <p className="text-danger go-back">
+          <p className="go-back">
             <Link to="#" onClick={goBack}>
               {" "}
               <MdOutlineArrowBackIosNew className="go-back-icon" />{" "}
@@ -45,6 +73,32 @@ const EnrollmentFS = () => {
             obcaecati perspiciatis dolorum, corrupti natus! Deleniti accusantium
             animi recusandae aliquid nihil, expedita nemo nesciunt.
           </p>
+
+          {/* Timer */}
+          <div className="timer container">
+            <p>JavaScript Full-stack Cohort II begins in </p>
+            <div className="time">
+              <p className="text-center">
+                <span className="day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+            </div>
+          </div>
 
           <div className="subscription">
             <div className="sub-form">
@@ -187,6 +241,7 @@ const EnrollmentFS = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </section>
   );

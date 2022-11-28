@@ -38,7 +38,11 @@ const Programmes = () => {
             </h1>
             <p className="my-5 lead">
               Choose from our range of programmes to begin your tech career.
+              Discounts up to 25% this season. Select a course now to book a
+              seat.
             </p>
+
+            {/* Cards */}
 
             <div className="main-story-section">
               {/* Card 1 */}
@@ -64,8 +68,8 @@ const Programmes = () => {
                   </div>
 
                   <p className="card-text price" id="price">
-                    <del>₦400,000</del>{" "}
-                    <span className="ms-2 lead">₦340,000</span>
+                    Price: <del>₦400,000</del>{" "}
+                    <span className="ms-2 lead">₦300,000</span>
                   </p>
                   <Link
                     to="/programmes/javascript-full-stack-web-development"
@@ -129,7 +133,7 @@ const Programmes = () => {
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    <del>₦250,000</del>{" "}
+                    Price: <del>₦250,000</del>{" "}
                     <span className="ms-2 lead">₦212,500</span>
                   </p>
                   <Link
@@ -163,8 +167,7 @@ const Programmes = () => {
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    <del>₦200,000</del>{" "}
-                    <span className="ms-2 lead">₦170,000</span>
+                    Price: <span className="ms-2 lead">₦200,000</span>
                   </p>
                   <Link
                     to="/programmes/back-end-web-development"

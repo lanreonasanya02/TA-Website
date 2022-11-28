@@ -66,4 +66,8 @@
   .enroll-btn {
     padding: 0 5rem;
   }
+
+  .timer {
+    display: none;
+  }
 }

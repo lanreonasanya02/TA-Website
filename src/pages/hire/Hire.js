@@ -97,18 +97,42 @@ const Hire = () => {
                     required
                   />
 
+                  <br />
+
                   <hr />
 
-                  {/* 
-                  <select name="" id="">
-                    <option value=""></option>
-                  </select> */}
+                  <br />
+
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Project Title*"
+                    required
+                  />
+
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Project Scope*"
+                    required
+                  />
+
+                  <input
+                    type="date"
+                    name=""
+                    id=""
+                    placeholder="Deadline*"
+                    required
+                  />
+
                   <textarea
                     name=""
                     id=""
                     cols="40"
                     rows="3"
-                    placeholder="Message*"
+                    placeholder="Project Specifications*"
                     required
                   ></textarea>
 
@@ -116,7 +140,7 @@ const Hire = () => {
                     type="submit"
                     className="btn btn-lg px-5 mt-4 request-techie"
                   >
-                    Request Techie!
+                    Request Quote
                   </button>
                 </form>
               </div>

@@ -22,13 +22,13 @@ const Timer = () => {
     const textSecond = Math.floor((difference % minute) / second);
 
     document.querySelector(".day").textContent =
-      textDay < 10 ? `0${textDay}d` : `${textDay}d`;
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
     document.querySelector(".hour").textContent =
-      textHour < 10 ? `0${textHour}h` : `${textHour}h`;
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
     document.querySelector(".minute").textContent =
-      textMinute < 10 ? `0${textMinute}m` : `${textMinute}m`;
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
     document.querySelector(".second").textContent =
-      textSecond < 10 ? `0${textSecond}s.` : `${textSecond}s.`;
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
   };
 
   setInterval(countDown, 1000);
@@ -41,20 +41,11 @@ const Timer = () => {
   return (
     <div className="timer-section">
       <div className="timer text-white container">
-        <div className="text-dark cohort">
-          <p>Our next JavaScript Full-stack cohort begins in </p>
-        </div>
-        <div className="time">
-          <p className="day">00</p>
-          <p className="hour">00</p>
-          <p className="minute">00</p>
-          <p className="second">00</p>
-        </div>
-
-        <div className="text-dark cohort click-to-register">
+        <div className=" cohort">
           <p>
-            Click <Link to="/programmes/enroll">here</Link> to register. Early
-            birds get 15% off{" "}
+            The next JavaScript Full-stack cohort begins on the 9th of January,
+            2023. Early birds get up to <span>25%</span> off.{" "}
+            <Link to="/programmes/enroll"> Click to register</Link> 😊
           </p>
         </div>
       </div>
