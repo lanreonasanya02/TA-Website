@@ -21,7 +21,9 @@ const Header = () => {
         <div className="head pt-5">
           <div className="head-content text-white container">
             <div className="typewriter-effect display-1 mb-4">
-              <h1 className="typewritter-fixed">Want to acquire skills in</h1>
+              <h1 className="typewritter-fixed">
+                Really Want to acquire skills in
+              </h1>
               <Typewriter
                 options={{
                   strings: [
