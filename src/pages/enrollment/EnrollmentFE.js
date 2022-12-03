@@ -44,6 +44,32 @@ const EnrollmentFE = () => {
             animi recusandae aliquid nihil, expedita nemo nesciunt.
           </p>
 
+          {/* Timer */}
+          <div className="timer container">
+            <p>Front-End Web Development program kicks off in </p>
+            <div className="time">
+              <p className="text-center">
+                <span className="day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+            </div>
+          </div>
+
           <div className="subscription">
             <div className="sub-form">
               <form action="" method="">

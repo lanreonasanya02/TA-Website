@@ -33,21 +33,23 @@ const About = () => {
               </h3> */}
 
               <p>
-                <span className="first-letter">L</span>orem ipsum dolor sit amet
-                consectetur adipisicing elit. Quos fuga omnis soluta aut
-                necessitatibus atque. Voluptatem expedita fugiat ipsum rem
-                numquam atque molestias, officiis consequatur, omnis et iste
-                recusandae amet labore error officia quaerat ea nostrum? Minus
-                aperiam et nesciunt doloribus hic ea temporibus, incidunt
-                voluptatem vitae reiciendis, commodi quia?
+                <span className="first-letter">A</span>t Tech Accent, it is not
+                just about learning HTML/CSS or about becoming a frontend or a
+                backend or even a full stack developer. It transcends just
+                learning programming and learning how to write codes. We are
+                even more passionate about helping you learn to ‘speak’ tech
+                fluently. We have made it our sole priority to help you
+                accelerate your dream and desire to become a world-class
+                software developer or designer, whether or not you have prior
+                knowledge or experience.
               </p>
 
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
-                reprehenderit incidunt cum aspernatur! Assumenda corrupti
-                temporibus ab unde nulla est ipsa autem officia quae ex quaerat,
-                commodi laborum eius laudantium, reprehenderit expedita,
-                explicabo ea esse minus illo perferendis aliquam voluptatibus.
+                We understand the complexities surrounding programming in its
+                entirety and as such, we intend to use this course to demystify
+                programming to the most basic level to take you from a complete
+                novice to mastery level and to make you job-ready at the end of
+                the course.
               </p>
             </div>
 
@@ -319,8 +321,8 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    Do I get an internship after I complete a programme with
-                    you?
+                    I have no technical background. How do I know that this is
+                    right for me?
                   </button>
                 </h2>
                 <div
@@ -351,7 +353,8 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    Where do I make payment to register for a programme?
+                    Do I get an internship after I complete a programme with
+                    you?
                   </button>
                 </h2>
                 <div

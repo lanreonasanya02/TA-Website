@@ -76,7 +76,7 @@ const EnrollmentFS = () => {
 
           {/* Timer */}
           <div className="timer container">
-            <p>JavaScript Full-stack Cohort II begins in </p>
+            <p>JavaScript Full-stack January 2023 Cohort kicks off in </p>
             <div className="time">
               <p className="text-center">
                 <span className="day">00</span>{" "}
