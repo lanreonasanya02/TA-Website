@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-import JSSyllabus from "../../images/jsfs.pdf";
+import fullstack from "../../images/FS.pdf";
 
 const EnrollmentFS = () => {
   // Scroll To top
@@ -59,7 +59,7 @@ const EnrollmentFS = () => {
             <Link to="#" onClick={goBack}>
               {" "}
               <MdOutlineArrowBackIosNew className="go-back-icon" />{" "}
-              <span>Return to programmes</span>
+              <span>Return to programs</span>
             </Link>
           </p>
           <h1 className="text-center">
@@ -188,7 +188,7 @@ const EnrollmentFS = () => {
                 <div className="enroll-btn">
                   <button className="enroll-submit register">Register</button>
                   <a
-                    href={JSSyllabus}
+                    href={fullstack}
                     className="btn enroll-submit download-btn"
                     target="_blank"
                   >

@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-import JSSyllabus from "../../images/jsfs.pdf";
+import frontend from "../../images/FE.pdf";
 
 const EnrollmentFE = () => {
   // Scroll To top
@@ -17,6 +17,34 @@ const EnrollmentFE = () => {
   const goBack = () => {
     window.history.back();
   };
+
+  // Countdown Timer
+  const countDown = () => {
+    const countDate = new Date("January 9, 2023 00:00:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent =
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
+    document.querySelector(".hour").textContent =
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
+    document.querySelector(".minute").textContent =
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
+    document.querySelector(".second").textContent =
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
+  };
+
+  setInterval(countDown, 1000);
 
   return (
     <section className="enroll">
@@ -31,7 +59,7 @@ const EnrollmentFE = () => {
             <Link to="#" onClick={goBack}>
               {" "}
               <MdOutlineArrowBackIosNew className="go-back-icon" />{" "}
-              <span>Return to programmes</span>
+              <span>Return to programs</span>
             </Link>
           </p>
           <h1 className="text-center">Front-End Web Development Programme</h1>
@@ -158,7 +186,7 @@ const EnrollmentFE = () => {
                 <div className="enroll-btn">
                   <button className="enroll-submit register">Register</button>
                   <a
-                    href={JSSyllabus}
+                    href={frontend}
                     className="btn enroll-submit download-btn"
                     target="_blank"
                   >

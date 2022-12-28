@@ -22,7 +22,7 @@ const Footer = () => {
               Why Choose Us?
             </Link>
             <Link to="/programmes" className="link link1">
-              Programmes
+              Programs
             </Link>
             <Link to="/contact" className="link">
               Contact
@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className="line"></div>
 
-        <div className="footer-body text-muted">
+        <div className="footer-body">
           <p>
             We change lives, businesses, and nations through digital upskilling,
             developing the edge you need to conquer what’s next. atque facere

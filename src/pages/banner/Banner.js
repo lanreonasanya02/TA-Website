@@ -16,10 +16,10 @@ const Banner = () => {
         <div className=" cohort">
           <p className="desktop-banner">
             The next JavaScript Full-stack cohort begins on the 9th of January,
-            2023. Early birds get up to <span>25% off</span> .{" "}
+            2023. Early birds get up to <span>25% off </span> when they{" "}
             <Link to="/programmes/javascript-full-stack-web-development">
               {" "}
-              Click to register
+              register here
             </Link>{" "}
             😊
           </p>

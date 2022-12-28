@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-import JSMSyllabus from "../../images/jsmc.pdf";
+// import JSMSyllabus from "../../images/jsmc.pdf";
 
 const EnrollmentJS = () => {
   // Scroll To top
@@ -31,7 +31,7 @@ const EnrollmentJS = () => {
             <Link to="#" onClick={goBack}>
               {" "}
               <MdOutlineArrowBackIosNew className="go-back-icon" />{" "}
-              <span>Return to programmes</span>
+              <span>Return to programs</span>
             </Link>
           </p>
           <h1 className="text-center">Advanced JavaScript Class</h1>
@@ -123,7 +123,7 @@ const EnrollmentJS = () => {
                 <div className="enroll-btn">
                   <button className="enroll-submit register">Register</button>
                   <a
-                    href={JSMSyllabus}
+                    href="#"
                     className="btn enroll-submit download-btn"
                     target="_blank"
                   >

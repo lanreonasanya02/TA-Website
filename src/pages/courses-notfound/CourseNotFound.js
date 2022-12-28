@@ -24,7 +24,7 @@ const NotFound = () => {
         className="text-center text-white container error-text"
         style={{ height: "100vh" }}
       >
-        <h1 className="display-1">Course Unavailable</h1> <br />
+        <h1 className="display-1">Course Unavailable!</h1> <br />
         <p className="lead">
           Sorry! The course is not available at the moment.
         </p>
@@ -39,7 +39,7 @@ const NotFound = () => {
         <p className="container pt-4 text-white">
           <Link to="#" onClick={goBack}>
             {" "}
-            <MdOutlineArrowBackIosNew /> Return to Programmes page
+            <MdOutlineArrowBackIosNew /> Return to Programs page
           </Link>
         </p>
       </div>

@@ -301,11 +301,11 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      Go to the <strong>Programs</strong> section, select a
+                      course and hit the enroll button. Complete the fields in
+                      the form and submit to register. An email would be sent to
+                      you containing details about the program, curriculum and
+                      payment.
                     </p>
                   </div>
                 </div>
@@ -333,11 +333,14 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      If there was an industry that had no bias about gender,
+                      age or race, it is tech. You do not need a computer
+                      science degree or to have been an A1 student in Math to be
+                      able to have your share in the industry. There is no
+                      'late-comer' either. As long as you have the drive,
+                      commitment and the genuine desire to change the world by
+                      proferring solutions to real-world problems, then yes, the
+                      program is right for you!
                     </p>
                   </div>
                 </div>
@@ -353,8 +356,7 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    Do I get an internship after I complete a programme with
-                    you?
+                    Do I get an internship after I complete a program with you?
                   </button>
                 </h2>
                 <div
@@ -365,11 +367,13 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      No. We do not provide internship opportunites at the
+                      moment. However, we offer career support and mentorship to
+                      our students and assist our top students in landing
+                      internship or full-time roles at tech organizations. Our
+                      top students comprises of those who were exceptional
+                      during the program by completing tasks and projects given
+                      to them.
                     </p>
                   </div>
                 </div>
@@ -385,7 +389,7 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFour"
                   >
-                    What do I need for the programme?
+                    What do I need for the program?
                   </button>
                 </h2>
                 <div
@@ -396,11 +400,8 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      A working laptop with at least 6GB RAM. Also, you need
+                      commitment and consistency to succeed in tech.
                     </p>
                   </div>
                 </div>
@@ -416,8 +417,7 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFive"
                   >
-                    I have no prior knowledge of tech. Do you think I can
-                    succeed here?
+                    What is the tuition fee for a program?
                   </button>
                 </h2>
                 <div
@@ -428,11 +428,10 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      Fees are subject to a particular program type. Please go
+                      to the <strong>Programs</strong> section and select a
+                      program.The program fees are contained in each program
+                      card.
                     </p>
                   </div>
                 </div>
@@ -448,8 +447,7 @@ const About = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseSix"
                   >
-                    Do I get an internship after I complete a programme with
-                    you?
+                    What are your payment plans available?
                   </button>
                 </h2>
                 <div
@@ -460,11 +458,41 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui velit, ut incidunt facere obcaecati libero ipsam
-                      aspernatur nesciunt nostrum, voluptate laborum temporibus
-                      et blanditiis commodi, porro dolorem assumenda id?
-                      Deleniti?
+                      Upon outright purchases of any of our programs, we offer a
+                      10% discount. However for installmental payments, we only
+                      take payments in two installments only. Upon registration,
+                      at least 65% of the program fees must have been completed
+                      by the student with the remaining 35% completed on or
+                      before the fifth week into the program.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    Where do I get info about when a program starts?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSeven"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p className="text-muted">
+                      Stay up to date with us by following us on our social
+                      media platforms. Go to the <strong>Contact</strong>{" "}
+                      section to see the various mediums you could contact us.
                     </p>
                   </div>
                 </div>

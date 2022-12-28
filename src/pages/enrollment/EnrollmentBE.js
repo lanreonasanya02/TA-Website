@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-import JSSyllabus from "../../images/jsfs.pdf";
+import backend from "../../images/BE.pdf";
 
 const EnrollmentBE = () => {
   // Scroll To top
@@ -17,6 +17,34 @@ const EnrollmentBE = () => {
   const goBack = () => {
     window.history.back();
   };
+
+  // Countdown Timer
+  const countDown = () => {
+    const countDate = new Date("April 3, 2023 00:00:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent =
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
+    document.querySelector(".hour").textContent =
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
+    document.querySelector(".minute").textContent =
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
+    document.querySelector(".second").textContent =
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
+  };
+
+  setInterval(countDown, 1000);
 
   return (
     <section className="enroll">
@@ -32,7 +60,7 @@ const EnrollmentBE = () => {
             <Link to="#" onClick={goBack}>
               {" "}
               <MdOutlineArrowBackIosNew className="go-back-icon" />{" "}
-              <span>Return to programmes</span>
+              <span>Return to programs</span>
             </Link>
           </p>
           <h1 className="text-center">
@@ -42,10 +70,38 @@ const EnrollmentBE = () => {
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
             illum dicta inventore, error vel consequatur modi sed nobis.
-            Adipisci aliquid praesentium ea! Cupiditate iure fugit debitis
-            obcaecati perspiciatis dolorum, corrupti natus! Deleniti accusantium
-            animi recusandae aliquid nihil, expedita nemo nesciunt.
+            Adipisci aliquid praesentium ea! This program kicks off{" "}
+            <strong>Monday, 3rd of April, 2023</strong>.
           </p>
+
+          {/* Timer */}
+          <div className="timer container d-none">
+            <p>
+              The Back-End Web Development Program starts on the{" "}
+              <strong>3rd of April, 2023</strong> and kicks off in{" "}
+            </p>
+            <div className="time">
+              <p className="text-center">
+                <span className="day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+            </div>
+          </div>
 
           <div className="subscription">
             <div className="sub-form">
@@ -135,7 +191,7 @@ const EnrollmentBE = () => {
                 <div className="enroll-btn">
                   <button className="enroll-submit register">Register</button>
                   <a
-                    href={JSSyllabus}
+                    href={backend}
                     className="btn enroll-submit download-btn"
                     target="_blank"
                   >
@@ -150,15 +206,13 @@ const EnrollmentBE = () => {
                 <h5 className="">Course Requirements</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
+                  <li>Your laptop will be your most important tool.</li>
+                  <li>You would need basic school math knowledge at least.</li>
                   <li>
-                    English will be our main language so you should be fluent in
-                    speaking and writing
-                  </li>
-                  <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Upon registration, check your mailbox from the email address
+                    you provided during registration for steps on how to make
+                    payments and to book a slot in class for the prefeered
+                    program.
                   </li>
                 </ul>
               </div>

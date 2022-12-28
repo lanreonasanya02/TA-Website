@@ -55,7 +55,7 @@ const Navbar = () => {
                 }
                 to="/programmes"
               >
-                <FaGraduationCap className="nav-icon" /> Programmes
+                <FaGraduationCap className="nav-icon" /> Programs
               </Link>
               <Link
                 className={

@@ -4,7 +4,6 @@ import "../programmes/PMediaQueries.css";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-// import brochure from '../../images/brochure.pdf'
 
 const Programmes = () => {
   // Scroll To top
@@ -18,7 +17,7 @@ const Programmes = () => {
         <Navbar />
         <div className="programmes-hero container">
           <div className="programmes-hero-text">
-            <h1 className="">Anyone can write code. </h1>
+            <h1 className="">Anyone can write code.</h1>
             <h1 className="display-4 inner-text fw-bold">
               Not everyone can speak it as fluently as we do!
             </h1>
