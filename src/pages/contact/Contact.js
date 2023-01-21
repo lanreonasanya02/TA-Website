@@ -40,16 +40,18 @@ const Contact = () => {
 
           {/* For Mobile */}
           <div className="hero-form contact mobile-hero-form">
-            <h5 className="heading">Got Questions?</h5>
+            <h5 className="heading">REQUEST A CALL</h5>
             <p className="text-white">
               Send us a message. An agent would reach out to you shortly.
             </p>
             <form action="submit" method="POST">
+              <input type="text" name="" id="" placeholder="Name*" required />
+
               <input
-                type="text"
+                type="tel"
                 name=""
                 id=""
-                placeholder="Full Name*"
+                placeholder="Phone No*"
                 required
               />
 
@@ -59,12 +61,11 @@ const Contact = () => {
                 id=""
                 cols="40"
                 rows="3"
-                placeholder="Message*"
-                required
+                placeholder="Message"
               ></textarea>
 
               <button type="submit" className="btn btn-lg btn-enroll px-5 mt-4">
-                Send Message!
+                Send Message
               </button>
             </form>
           </div>
@@ -76,13 +77,13 @@ const Contact = () => {
             <div className="mt-3 d-flex">
               <FiMapPin id="contact-icon" />
               <p className="ms-2">
-                33a, Odozie Street, Opposite Dankaro Estate, Ojodu Berger, Lagos
+                33a, Odozi Street, Opposite Dankaro Estate, Ojodu Berger, Lagos
                 State, Nigeria
               </p>
             </div>
             <p className="">
               {" "}
-              <BsTelephone id="contact-icon" /> +234 813 6128 748
+              <BsTelephone id="contact-icon" /> +234-813-6128-748
             </p>
 
             <p className="">
@@ -98,14 +99,14 @@ const Contact = () => {
               <div className="mt-3 d-flex">
                 <FiMapPin id="contact-icon" />
                 <p className="ms-2">
-                  33a, Odozie Street, Opposite Dankaro Estate, Ojodu Berger,
+                  33a, Odozi Street, Opposite Dankaro Estate, Ojodu Berger,
                   Lagos State, Nigeria
                 </p>
               </div>
 
               <p className="">
                 {" "}
-                <BsTelephone id="contact-icon" /> +234 813 6128 748
+                <BsTelephone id="contact-icon" /> +234-813-6128-748
               </p>
 
               <p className="">
@@ -123,7 +124,7 @@ const Contact = () => {
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/83524382/admin/"
+                  href="https://www.linkedin.com/company/tech-accent-creatives/"
                   target="_blank"
                   rel="noreferrer"
                   className="socials-icon socials-icon1"
@@ -142,16 +143,18 @@ const Contact = () => {
             </div>
 
             <div className="hero-form contact contact-hero-form">
-              <h5 className="heading">Got Questions?</h5>
+              <h5 className="heading">REQUEST A CALL</h5>
               <p className="text-white">
                 Send us a message. An agent would reach out to you shortly.
               </p>
               <form action="submit" method="POST">
+                <input type="text" name="" id="" placeholder="Name*" required />
+
                 <input
-                  type="text"
+                  type="tel"
                   name=""
                   id=""
-                  placeholder="Full Name*"
+                  placeholder="Phone No*"
                   required
                 />
 
@@ -167,15 +170,14 @@ const Contact = () => {
                   id=""
                   cols="40"
                   rows="3"
-                  placeholder="Message*"
-                  required
+                  placeholder="Message"
                 ></textarea>
 
                 <button
                   type="submit"
                   className="btn btn-lg btn-enroll px-5 mt-4"
                 >
-                  Send Message!
+                  Send Message
                 </button>
               </form>
             </div>

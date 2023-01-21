@@ -22,11 +22,7 @@ const Programmes = () => {
               Not everyone can speak it as fluently as we do!
             </h1>
 
-            <p className="lead">
-              Develop job-ready digital skills for as few as 15 hours per week -
-              physically and online where you can choose when and where it’s
-              convenient for you to learn.
-            </p>
+            <p className="lead"></p>
           </div>
         </div>
 
@@ -36,15 +32,16 @@ const Programmes = () => {
               Find The B<span>est Program</span>me For You!
             </h1>
             <p className="my-5 lead">
-              Choose from our range of programmes to begin your tech career.
-              Discounts up to 25% this season. Select a course now to book a
-              seat.
+              Develop job-ready digital skills for as few as 6 hours per week -
+              physically or online where you can choose when and where it’s
+              convenient for you to learn. Choose from our range of programmes
+              to begin your tech career.
             </p>
 
             {/* Cards */}
 
             <div className="main-story-section">
-              {/* Card 1 */}
+              {/* JS Fullstack */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -60,15 +57,15 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Acquire competitive edge as a JavaScript Full-stack web
+                      developer by learning web development using tools such as
+                      HTML5, CSS3/Bootstrap5, JavaScript, ReactJS, RESTful APIs,
+                      NodeJS, ExpressJS, MongoDB/Mongoose etc
                     </p>
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <del>₦400,000</del>{" "}
-                    <span className="ms-2 lead">₦300,000</span>
+                    Price: <span className="ms-2 lead">₦400,000</span>
                   </p>
                   <Link
                     to="/programmes/javascript-full-stack-web-development"
@@ -79,7 +76,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 2 */}
+              {/* Python */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -95,14 +92,15 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Learn Python for developing web applications for storing
+                      and manipulating complex data using tools such as HTML5,
+                      CSS3/Bootstrap5, Responsive Design, JavaScript, ReactJS,
+                      RESTful APIs, Python, Django etc
                     </p>
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">NA</span>
+                    Price: <span className="ms-2 lead">₦400,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
                     <span>Enroll</span>
@@ -110,7 +108,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 3 */}
+              {/* Front-end */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -126,14 +124,16 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      This program is suitable for people who have little or
+                      zero knowledge about programming or how the web works.
+                      Become a Front-end engineer by learning front-end tools
+                      such as HTML5, CSS3/Bootstrap5, Responsive Design,
+                      JavaScript, ReactJS, RESTful APIs etc
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    Price: <del>₦250,000</del>{" "}
-                    <span className="ms-2 lead">₦212,500</span>
+                    Price:
+                    <span className="ms-2 lead">₦200,000</span>
                   </p>
                   <Link
                     to="/programmes/front-end-web-development"
@@ -144,25 +144,27 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 4 */}
+              {/* Back-end */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 8 weeks at 10hrs/week
+                    Beginner class, 8 weeks at 15hrs/week
                   </p>
                 </div>
 
                 <div className="card-body card-info">
                   <div className="title-container">
                     <h5 className="card-title mb-3 fw-bold title">
-                      Back-End Web Development (NodeJS)
+                      Back-End Web Development (NodeJS/Python)
                     </h5>
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Learn how to create back-end services with JavaScript or
+                      Python using tools such as NodeJS, ExpressJS,
+                      MongoDB/Mongoose, Python, Django etc for creating web
+                      servers, creating APIs and integrating backend services
+                      with frontend applications.
                     </p>
                   </div>
                   <p className="card-text price" id="price">
@@ -177,7 +179,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 5 */}
+              {/* Advanced JS */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -208,7 +210,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 6 */}
+              {/* Advanced React */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -224,9 +226,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Take your React skills up a notch by enrolling for this
+                      advanced ReactJS program. Here, you'd learn the additional
+                      skills you need to become a ReactJS professional. Master
+                      ReactJS hooks, router DOM, Redux, Jest etc{" "}
                     </p>
                   </div>
 
@@ -242,7 +245,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 7 */}
+              {/* Product design */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -258,14 +261,15 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Become a product designer by acquiring foundational skills
+                      for User Interface/User Experience (UI/UX) for creating
+                      development-ready designs for mobile apps, desktop apps,
+                      or web platforms and for building a design portfolio.
                     </p>
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">NA</span>
+                    Price: <span className="ms-2 lead">₦200,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
                     <span>Enroll</span>
@@ -273,7 +277,7 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 8 */}
+              {/* Graphics Design */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
@@ -303,11 +307,11 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 9 */}
+              {/* Data science */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Advanced class, 8 weeks at 8hrs/week
+                    Beginner class, 8 weeks at 8hrs/weekends
                   </p>
                 </div>
 
@@ -319,13 +323,14 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      This program is structured to teach you the fundamental
+                      data science programming tools (Python, SQL, Git) and to
+                      guide you through what you need to know to start a career
+                      as a Data Scientist from the basics.
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">NA</span>
+                    Price: <span className="ms-2 lead">₦150,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
                     <span>Enroll</span>
@@ -333,25 +338,25 @@ const Programmes = () => {
                 </div>
               </div>
 
-              {/* Card 10 */}
+              {/* Data analysis */}
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Advanced class, 8 weeks at 8hrs/week
+                    Beginner class, 8 weeks at 8hrs/weekends
                   </p>
                 </div>
 
                 <div className="card-body card-info">
                   <div className="title-container">
                     <h5 className="card-title mb-3 fw-bold title">
-                      Data Analysis (Microsoft Excel, Power BI)
+                      Data Analysis <br /> (MS Excel, Power BI)
                     </h5>
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Become a professional data analyst using tools such as
+                      Microsoft Excel and Power BI for data analysis,
+                      interpretations and visualizations
                     </p>
                   </div>
                   <p className="card-text price" id="price">

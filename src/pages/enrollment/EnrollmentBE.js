@@ -64,14 +64,19 @@ const EnrollmentBE = () => {
             </Link>
           </p>
           <h1 className="text-center">
-            Back-End Web Development Programme (NodeJS)
+            Back-End Web Development Programme (NodeJS/Python)
           </h1>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            illum dicta inventore, error vel consequatur modi sed nobis.
-            Adipisci aliquid praesentium ea! This program kicks off{" "}
-            <strong>Monday, 3rd of April, 2023</strong>.
+            Become a back-end developer leveraging on programming language
+            tools/frameworks such as NodeJS (JavaScript) and Django (Python) and
+            gaining the right skills you need to build secure full-stack
+            applications in relation to design patterns and structures; model,
+            store and perform CRUD operations in databases; consume and
+            integrate third-party APIs in an application; deploy applications to
+            the web using cloud-based hosting such as Netlify & Heroku;
+            connecting backend services with front-end applications; and clearly
+            document and present the projects you have developed and deployed.
           </p>
 
           {/* Timer */}
@@ -147,9 +152,17 @@ const EnrollmentBE = () => {
                   <input type="tel" name="" id="" required />
                 </div>
 
+                <div className="program">
+                  <label htmlFor="">Program*</label>
+                  <select name="" id="" className="" required>
+                    <option value="">NodeJS (JavaScript)</option>
+                    <option value="">Django (Python)</option>
+                  </select>
+                </div>
+
                 <div className="mode">
                   <label htmlFor="">Mode of learning*</label>
-                  <select name="" id="" className="">
+                  <select name="" id="" className="" required>
                     <option value="">Physical</option>
                     <option value="">Virtual(Classroom)</option>
                     <option value="">Virtual(Online)</option>
@@ -157,10 +170,10 @@ const EnrollmentBE = () => {
                 </div>
 
                 <div className="cohort">
-                  <label htmlFor="">Cohort*</label>
-                  <select name="" id="" className="">
-                    <option value="">Weekdays</option>
-                    <option value="">Weekends</option>
+                  <label htmlFor="">Track*</label>
+                  <select name="" id="" className="" required>
+                    <option value="">Weekdays (Mon - Wed)</option>
+                    <option value="">Weekends (Sat - Sun)</option>
                   </select>
                 </div>
 
@@ -206,13 +219,22 @@ const EnrollmentBE = () => {
                 <h5 className="">Course Requirements</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool.</li>
-                  <li>You would need basic school math knowledge at least.</li>
                   <li>
-                    Upon registration, check your mailbox from the email address
-                    you provided during registration for steps on how to make
-                    payments and to book a slot in class for the prefeered
-                    program.
+                    Your laptop will be your most important tool. Please ensure
+                    that your computer has at least a 6GB worth of internal
+                    memory.
+                  </li>
+                  <li>
+                    Please ensure that you are available for classes when the
+                    program kicks off. If you are unsure about your
+                    availability, please do not subscribe for this program yet.
+                    As soon as the program kicks off, there would be no time for
+                    recaps or repetitions.
+                  </li>
+                  <li>
+                    COMMITMENT & CONSISTENCY are two important ingredients that
+                    you must possess in order for you to gain value from the
+                    program you paid for!
                   </li>
                 </ul>
               </div>
@@ -221,20 +243,19 @@ const EnrollmentBE = () => {
                 <h5 className="">Important Information</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
-
                   <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Please ensure to download the program syllabus before making
+                    payment to ensure that you are satisfied with the program
+                    schedule and curriculum.
                   </li>
                   <li>
-                    After payment, please call 08136128748 to confirm your
-                    payment and get you onboard
+                    After payment is made for a program, please note that there
+                    would be no refund of money arising from cancellation of
+                    program from a student.
                   </li>
                   <li>
-                    Classes will take place at No. 33a Odozie street, Ojodu
-                    Berger, Lagos State, Nigeria
+                    Physical classes will take place at No. 33a Odozi street,
+                    Ojodu Berger, Lagos State, Nigeria.
                   </li>
                 </ul>
               </div>

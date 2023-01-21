@@ -92,19 +92,29 @@ const About = () => {
                     <div className="mobile-carou-text col-12 text-center">
                       <h1>Rita Chiaha</h1>
                       <p>Lagos, Nigeria</p>
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p className="lead">
+                        "At first, I wasn't confident in myself that I could fit
+                        into the tech world because I had no prior experience or
+                        knowledge about coding. While looking for a perfect
+                        school to help me do that, I stumbled upon TECH ACCENT
+                        and today I can proudly call myself a full-stack
+                        developer. Tech Accent did not only boost my confidence
+                        but also helped me master the skills I needed in my
+                        career as a full-stack developer."
                       </p>
                     </div>
 
                     {/* Desktop */}
                     <div className="carou-text col-lg-6 col-12">
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p className="">
+                        "At first, I wasn't confident in myself that I could fit
+                        into the tech world because I had no prior experience or
+                        knowledge about coding. While looking for a perfect
+                        school to help me do that, I stumbled upon TECH ACCENT
+                        and today I can proudly call myself a full-stack
+                        developer. Tech Accent did not only boost my confidence
+                        but also helped me master the skills I needed in my
+                        career as a full-stack developer."
                       </p>
                       <h1>Rita Chiaha</h1>
                       <p>Lagos, Nigeria</p>
@@ -304,8 +314,8 @@ const About = () => {
                       Go to the <strong>Programs</strong> section, select a
                       course and hit the enroll button. Complete the fields in
                       the form and submit to register. An email would be sent to
-                      you containing details about the program, curriculum and
-                      payment.
+                      you containing details about the program - program
+                      schedule, curriculum and payment.
                     </p>
                   </div>
                 </div>
@@ -339,7 +349,7 @@ const About = () => {
                       able to have your share in the industry. There is no
                       'late-comer' either. As long as you have the drive,
                       commitment and the genuine desire to change the world by
-                      proferring solutions to real-world problems, then yes, the
+                      creating solutions to real-world problems, then yes, the
                       program is right for you!
                     </p>
                   </div>
@@ -400,8 +410,9 @@ const About = () => {
                 >
                   <div class="accordion-body">
                     <p className="text-muted">
-                      A working laptop with at least 6GB RAM. Also, you need
-                      commitment and consistency to succeed in tech.
+                      A working laptop with at least 6GB RAM. However most
+                      importantly, you need commitment and consistency to
+                      succeed in any of the programs.
                     </p>
                   </div>
                 </div>
@@ -430,7 +441,7 @@ const About = () => {
                     <p className="text-muted">
                       Fees are subject to a particular program type. Please go
                       to the <strong>Programs</strong> section and select a
-                      program.The program fees are contained in each program
+                      program. The program fees are contained in each program
                       card.
                     </p>
                   </div>
@@ -460,10 +471,10 @@ const About = () => {
                     <p className="text-muted">
                       Upon outright purchases of any of our programs, we offer a
                       10% discount. However for installmental payments, we only
-                      take payments in two installments only. Upon registration,
-                      at least 65% of the program fees must have been completed
-                      by the student with the remaining 35% completed on or
-                      before the fifth week into the program.
+                      take payments in two tranches only. Upon registration, at
+                      least 65% of the program fees must have been completed by
+                      the student with the remaining 35% completed on or before
+                      the fifth week into the program.
                     </p>
                   </div>
                 </div>
@@ -492,7 +503,8 @@ const About = () => {
                     <p className="text-muted">
                       Stay up to date with us by following us on our social
                       media platforms. Go to the <strong>Contact</strong>{" "}
-                      section to see the various mediums you could contact us.
+                      section to see the various mediums you could contact us
+                      through.
                     </p>
                   </div>
                 </div>

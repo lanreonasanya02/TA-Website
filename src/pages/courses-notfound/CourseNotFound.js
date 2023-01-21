@@ -24,16 +24,16 @@ const NotFound = () => {
         className="text-center text-white container error-text"
         style={{ height: "100vh" }}
       >
-        <h1 className="display-1">Course Unavailable!</h1> <br />
+        <h1 className="display-1">Program Unavailable!</h1> <br />
         <p className="lead">
-          Sorry! The course is not available at the moment.
+          Oops🤭! This program is not available at the moment.
         </p>
         <p className="lead">
           If you{" "}
           <Link to="/contact" className="link-to-contact">
-            fill the form in the Contact Us
+            fill the form in the Contact
           </Link>{" "}
-          page, we promise to notify you when the course becomes available.
+          page, we promise to notify you when the program becomes available.
         </p>
         <br />
         <p className="container pt-4 text-white">

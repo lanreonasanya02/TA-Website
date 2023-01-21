@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import "./NMediaQueries.css";
-import logo from "../../images/logo-xmas.png";
+import logo from "../../images/logo-white.png";
 import { useLocation, Link } from "react-router-dom";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaUsers, FaGraduationCap } from "react-icons/fa";

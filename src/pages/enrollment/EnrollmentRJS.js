@@ -37,11 +37,12 @@ const EnrollmentRJS = () => {
           <h1 className="text-center">Advanced ReactJS Class</h1>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            illum dicta inventore, error vel consequatur modi sed nobis.
-            Adipisci aliquid praesentium ea! Cupiditate iure fugit debitis
-            obcaecati perspiciatis dolorum, corrupti natus! Deleniti accusantium
-            animi recusandae aliquid nihil, expedita nemo nesciunt.
+            Mastering React begins with learning its fundamentals. This can pose
+            a bit of a challenge because, while the modularity of the React
+            ecosystem makes it really powerful for building applications, there
+            is a great deal to learn. This program demystifies all React tools
+            and concepts and enables learners have the foundational React skills
+            that are necessary to build production-ready applications.
           </p>
 
           <div className="subscription">
@@ -97,10 +98,10 @@ const EnrollmentRJS = () => {
                 </div>
 
                 <div className="cohort">
-                  <label htmlFor="">Cohort*</label>
+                  <label htmlFor="">Track*</label>
                   <select name="" id="" className="">
-                    <option value="">Weekdays</option>
-                    <option value="">Weekends</option>
+                    <option value="">Weekdays (Mon - Wed)</option>
+                    <option value="">Weekends (Sat & Sun)</option>
                   </select>
                 </div>
 
@@ -138,15 +139,22 @@ const EnrollmentRJS = () => {
                 <h5 className="">Course Requirements</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
                   <li>
-                    English will be our main language so you should be fluent in
-                    speaking and writing
+                    Your laptop will be your most important tool. Please ensure
+                    that your computer has at least a 6GB worth of internal
+                    memory.
                   </li>
                   <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Please ensure that you are available for classes when the
+                    program kicks off. If you are unsure about your
+                    availability, please do not subscribe for this program yet.
+                    As soon as the program kicks off, there would be no time for
+                    recaps or repetitions.
+                  </li>
+                  <li>
+                    COMMITMENT & CONSISTENCY are two important ingredients that
+                    you must possess in order for you to gain value from the
+                    program you paid for!
                   </li>
                 </ul>
               </div>
@@ -155,20 +163,19 @@ const EnrollmentRJS = () => {
                 <h5 className="">Important Information</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
-
                   <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Please ensure to download the program syllabus before making
+                    payment to ensure that you are satisfied with the program
+                    schedule and curriculum.
                   </li>
                   <li>
-                    After payment, please call 08136128748 to confirm your
-                    payment and get you onboard
+                    After payment is made for a program, please note that there
+                    would be no refund of money arising from cancellation of
+                    program from a student.
                   </li>
                   <li>
-                    Classes will take place at No. 33a Odozie street, Ojodu
-                    Berger, Lagos State, Nigeria
+                    Physical classes will take place at No. 33a Odozi street,
+                    Ojodu Berger, Lagos State, Nigeria.
                   </li>
                 </ul>
               </div>

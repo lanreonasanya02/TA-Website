@@ -51,21 +51,18 @@ footer .footer-end {
 .footer-end .icon {
   color: #20cfc4;
   font-size: 1.2rem;
-  border: 3px solid #20cfc4;
-  border-radius: 5rem;
+
   padding: 12px;
 }
 
 .footer-end .icon:hover {
   color: #fff;
-  border: 3px solid #fff;
 }
 
 .footer-end .icon1 {
-  margin-right: 1rem;
+  margin-right: 8px;
 }
 
 footer .attribution {
   text-align: center;
-  /* padding-top: 3rem; */
 }

@@ -20,20 +20,20 @@ const NotFound = () => {
       <Navbar />
 
       <p className="container pt-4 text-white">
-        <Link to="#" onClick={goBack}>
+        <Link to="/">
           {" "}
-          <MdOutlineArrowBackIosNew /> Go Back
+          <MdOutlineArrowBackIosNew /> Return Home
         </Link>
       </p>
       <div
         className="text-center text-white container"
         style={{ height: "100vh" }}
       >
-        <h1 className="display-1">404</h1>
+        <h1 className="display-1">404 - Not Found</h1>
         <p className="">
           Oops....We could not find the page you requested. <br /> Could be that
           the page is not available at the moment or there is a typo in your
-          address.
+          request.
         </p>
       </div>
     </div>

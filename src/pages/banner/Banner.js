@@ -15,18 +15,18 @@ const Banner = () => {
       <div className="timers text-white container">
         <div className=" cohort">
           <p className="desktop-banner">
-            The next JavaScript Full-stack cohort begins on the 9th of January,
-            2023. Early birds get up to <span>25% off </span> when they{" "}
+            The next Data Analysis cohort begins on the 4th of February, 2023.
+            Early birds get up to <span>10% off </span> when they{" "}
             <Link to="/programmes/javascript-full-stack-web-development">
               {" "}
-              register here
+              <u>register</u>
             </Link>{" "}
             😊
           </p>
 
           <p className="mobile-banner">
-            The next JavaScript Full-stack cohort begins on the 9th of January,
-            2023. Early birds get <span>up to 25% off.</span>
+            The next Data Analysis cohort begins on the 4th of February, 2023.
+            Early birds get <span>up to 10% off.</span>
             <Link to="/programmes/javascript-full-stack-web-development">
               {" "}
               Click to register
@@ -39,8 +39,8 @@ const Banner = () => {
         <MdOutlineClose
           className="icon4close "
           onClick={dismissSection}
-          data-bs-toggle="tooltip"
-          data-bs-title="dismiss"
+          data-bs-toggle="tool-tip"
+          data-bs-title="Close"
         />
       </div>
     </div>

@@ -39,7 +39,7 @@ const Hire = () => {
                   <figcaption className="lead">Lanre Adeolu</figcaption>
                   <figcaption className="text-muted">
                     JS Coach & Developer at{" "}
-                    <span className="fst-italic">Tech accent</span>
+                    <span className="fst-italic">Tech Accent Creatives</span>
                   </figcaption>
                 </figure>
               </div>

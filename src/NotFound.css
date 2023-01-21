@@ -10,3 +10,10 @@
   font-weight: bolder;
   color: rgb(255, 0, 0);
 }
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .error-page h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+}

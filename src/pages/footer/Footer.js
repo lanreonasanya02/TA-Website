@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo-xmas.png";
+import logo from "../../images/logo-white.png";
 import "./Footer.css";
 import "./FMediaQueries.css";
 import { Link } from "react-router-dom";
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className="line"></div>
         <div className="footer-end text-muted">
-          <p>Copyright 2022. All Rights Reserved.</p>
+          <p>Copyright 2023. All Rights Reserved.</p>
           <div className="socials">
             <a
               href="mailto:info@techaccentng.com"
@@ -63,7 +63,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://www.linkedin.com/company/83524382/admin/"
+              href="https://www.linkedin.com/company/tech-accent-creatives"
               target="_blank"
               rel="noreferrer"
               className="icon icon1"

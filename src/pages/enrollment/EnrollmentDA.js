@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
-// import JSSyllabus from "../../images/jsfs.pdf";
+import DASyllabus from "../../images/DA.pdf";
 
 const EnrollmentDA = () => {
   // Scroll To top
@@ -17,6 +17,34 @@ const EnrollmentDA = () => {
   const goBack = () => {
     window.history.back();
   };
+
+  // Countdown Timer
+  const countDown = () => {
+    const countDate = new Date("February 4, 2023 00:00:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent =
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
+    document.querySelector(".hour").textContent =
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
+    document.querySelector(".minute").textContent =
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
+    document.querySelector(".second").textContent =
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
+  };
+
+  setInterval(countDown, 1000);
 
   return (
     <section className="enroll">
@@ -34,17 +62,44 @@ const EnrollmentDA = () => {
               <span>Return to programs</span>
             </Link>
           </p>
-          <h1 className="text-center">
-            Data Analysis (Advanced Microsoft Excel, Power BI)
-          </h1>
+          <h1 className="text-center">Data Analysis</h1>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            illum dicta inventore, error vel consequatur modi sed nobis.
-            Adipisci aliquid praesentium ea! Cupiditate iure fugit debitis
-            obcaecati perspiciatis dolorum, corrupti natus! Deleniti accusantium
-            animi recusandae aliquid nihil, expedita nemo nesciunt.
+            Data analysts glean insights from data to help businesses make
+            better decisions. As data becomes increasingly important to the
+            daily operations and decision-making processes in business settings,
+            so also has the role that data analysts play in the professional
+            world. We understand the complexities around data in its entirety
+            and as such, this program demystifies the concept & tools of data to
+            the most basic level to take you from a complete novice to mastery
+            level and also to make you job-ready at the end of the program.
           </p>
+
+          {/* Timer */}
+          <div className="timer container">
+            <p>Data Analysis February 2023 Cohort kicks off in </p>
+            <div className="time">
+              <p className="text-center">
+                <span className="day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+            </div>
+          </div>
 
           <div className="subscription">
             <div className="sub-form">
@@ -99,9 +154,9 @@ const EnrollmentDA = () => {
                 </div>
 
                 <div className="cohort">
-                  <label htmlFor="">Cohort*</label>
+                  <label htmlFor="">Track*</label>
                   <select name="" id="" className="">
-                    <option value="">Weekends</option>
+                    <option value="">Weekends (Sat & Sun)</option>
                   </select>
                 </div>
 
@@ -124,7 +179,7 @@ const EnrollmentDA = () => {
                 <div className="enroll-btn">
                   <button className="enroll-submit register">Register</button>
                   <a
-                    href="#"
+                    href={DASyllabus}
                     className="btn enroll-submit download-btn"
                     target="_blank"
                   >
@@ -139,15 +194,22 @@ const EnrollmentDA = () => {
                 <h5 className="">Course Requirements</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
                   <li>
-                    English will be our main language so you should be fluent in
-                    speaking and writing
+                    Your laptop will be your most important tool. Please ensure
+                    that your computer has at least a 6GB worth of internal
+                    memory.
                   </li>
                   <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Please ensure that you are available for classes when the
+                    program kicks off. If you are unsure about your
+                    availability, please do not subscribe for this program yet.
+                    As soon as the program kicks off, there would be no time for
+                    recaps or repetitions.
+                  </li>
+                  <li>
+                    COMMITMENT & CONSISTENCY are two important ingredients that
+                    you must possess in order for you to gain value from the
+                    program you paid for!
                   </li>
                 </ul>
               </div>
@@ -156,20 +218,19 @@ const EnrollmentDA = () => {
                 <h5 className="">Important Information</h5>
 
                 <ul>
-                  <li>Your laptop will be your most important tool</li>
-
                   <li>
-                    A mail will be sent to your email after registering with
-                    steps to take on how to pay and enroll for the chosen
-                    course(s)
+                    Please ensure to download the program syllabus before making
+                    payment to ensure that you are satisfied with the program
+                    schedule and curriculum.
                   </li>
                   <li>
-                    After payment, please call 08136128748 to confirm your
-                    payment and get you onboard
+                    After payment is made for a program, please note that there
+                    would be no refund of money arising from cancellation of
+                    program from a student.
                   </li>
                   <li>
-                    Classes will take place at No. 33a Odozie street, Ojodu
-                    Berger, Lagos State, Nigeria
+                    Physical classes will take place at No. 33a Odozi street,
+                    Ojodu Berger, Lagos State, Nigeria.
                   </li>
                 </ul>
               </div>
