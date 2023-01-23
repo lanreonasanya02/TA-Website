@@ -310,7 +310,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       Go to the <strong>Programs</strong> section, select a
                       course and hit the enroll button. Complete the fields in
                       the form and submit to register. An email would be sent to
@@ -342,7 +342,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       If there was an industry that had no bias about gender,
                       age or race, it is tech. You do not need a computer
                       science degree or to have been an A1 student in Math to be
@@ -376,7 +376,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       No. We do not provide internship opportunites at the
                       moment. However, we offer career support and mentorship to
                       our students and assist our top students in landing
@@ -409,7 +409,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       A working laptop with at least 6GB RAM. However most
                       importantly, you need commitment and consistency to
                       succeed in any of the programs.
@@ -438,7 +438,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       Fees are subject to a particular program type. Please go
                       to the <strong>Programs</strong> section and select a
                       program. The program fees are contained in each program
@@ -468,7 +468,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       Upon outright purchases of any of our programs, we offer a
                       10% discount. However for installmental payments, we only
                       take payments in two tranches only. Upon registration, at
@@ -500,7 +500,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <p className="text-muted">
+                    <p>
                       Stay up to date with us by following us on our social
                       media platforms. Go to the <strong>Contact</strong>{" "}
                       section to see the various mediums you could contact us

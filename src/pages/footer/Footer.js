@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="line"></div>
 
         <div className="footer-body">
-          <p>
+          <p className="text-muted">
             We change lives, businesses, and nations through digital upskilling,
             developing the edge you need to conquer what’s next. atque facere
             sed delectus dignissimos porro accusamus culpa harum impedit nam

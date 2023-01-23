@@ -16,12 +16,10 @@ const Banner = () => {
         <div className=" cohort">
           <p className="desktop-banner">
             The next Data Analysis cohort begins on the 4th of February, 2023.
-            Early birds get up to <span>10% off </span> when they{" "}
-            <Link to="/programmes/javascript-full-stack-web-development">
-              {" "}
-              <u>register</u>
-            </Link>{" "}
-            😊
+            Early birds get up to <span>10% off</span>. {"   "}
+            <Link to="/programmes/data-analysis" className="banner-link">
+              <u>Register here</u>
+            </Link>
           </p>
 
           <p className="mobile-banner">

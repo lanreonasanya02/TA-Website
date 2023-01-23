@@ -19,13 +19,13 @@
 .timers .cohort {
   text-align: center;
   margin-right: 1px;
-  font-size: 15px;
+  font-size: 12px;
   color: #fff;
 }
 
 .cohort span {
   color: #20cfc4;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .close-icon {
@@ -37,4 +37,13 @@
 .close-icon:hover {
   color: rgb(172, 118, 118);
   cursor: pointer;
+}
+
+.banner-link {
+  color: #fff;
+  font-size: 12px;
+}
+
+.banner-link:hover {
+  color: #20cfc4;
 }
