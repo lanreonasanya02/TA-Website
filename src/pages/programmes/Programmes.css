@@ -73,6 +73,7 @@
   padding: 10px 2rem;
   background: rgb(32, 207, 196);
   width: 100%;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-form .btn-enroll:hover {
@@ -115,7 +116,7 @@
 }
 
 .main-story-section .card {
-  width: 20rem;
+  width: 18rem;
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -151,7 +152,7 @@
 }
 
 .main-story-section .card .card-info {
-  height: 55vh;
+  height: 65vh;
 }
 
 .main-story-section .card .card-info p {

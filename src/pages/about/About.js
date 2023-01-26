@@ -4,6 +4,8 @@ import Navbar from "../navbar/Navbar";
 import "./About.css";
 import "./AMediaQueries.css";
 import student from "../../images/Web_3.webp";
+import group from "../../images/group-cert.jpg";
+import classroom from "../../images/class-room.jpg";
 import theophilus from "../../images/theo-nobg.png";
 import rita from "../../images/rita-nobg.png";
 import tewogbade from "../../images/tewo-nobg.png";
@@ -43,22 +45,55 @@ const About = () => {
                 software developer or designer, whether or not you have prior
                 knowledge or experience.
               </p>
+            </div>
 
+            <div className="brief-image">
+              <img
+                src={student}
+                alt="student"
+                className="actual-image2"
+                width="60%"
+              />
+            </div>
+          </div>
+
+          <div className="brief">
+            <div className="brief-image">
+              <img
+                src={group}
+                alt="group-with-certificates"
+                className="actual-image2"
+                width="60%"
+              />
+            </div>
+            <div className="brief-text">
               <p>
-                We understand the complexities surrounding programming in its
-                entirety and as such, we intend to use this course to demystify
-                programming to the most basic level to take you from a complete
-                novice to mastery level and to make you job-ready at the end of
-                the course.
+                <span className="first-letter">W</span>e understand the
+                complexities surrounding programming in its entirety and as
+                such, we intend to use this course to demystify programming to
+                the most basic level to take you from a complete novice to
+                mastery level and to make you job-ready at the end of the
+                course.
+              </p>
+            </div>
+          </div>
+
+          <div className="brief">
+            <div className="brief-text">
+              <p>
+                <span className="first-letter">W</span>e understand the
+                complexities surrounding programming in its entirety and as
+                such, we intend to use this course to demystify programming to
+                the most basic level to take you from a complete novice to
+                mastery level and to make you job-ready at the end of the
+                course.
               </p>
             </div>
 
             <div className="brief-image">
-              {/* <div className="box4image"></div> */}
-
               <img
-                src={student}
-                alt="student"
+                src={classroom}
+                alt="classroom"
                 className="actual-image2"
                 width="60%"
               />
@@ -90,33 +125,31 @@ const About = () => {
 
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
-                      <h1>Rita Chiaha</h1>
+                      <h3>Rita Chiaha</h3>
                       <p>Lagos, Nigeria</p>
-                      <p className="lead">
+                      <p>
                         "At first, I wasn't confident in myself that I could fit
                         into the tech world because I had no prior experience or
-                        knowledge about coding. While looking for a perfect
-                        school to help me do that, I stumbled upon TECH ACCENT
-                        and today I can proudly call myself a full-stack
-                        developer. Tech Accent did not only boost my confidence
-                        but also helped me master the skills I needed in my
-                        career as a full-stack developer."
+                        knowledge about coding. While looking for the perfect
+                        school to help me do that, I stumbled upon Tech Accent
+                        and today, the rest is history. Tech Accent did not only
+                        boost my confidence but also helped me master the skills
+                        I needed in my career as a full-stack developer."
                       </p>
                     </div>
 
                     {/* Desktop */}
                     <div className="carou-text col-lg-6 col-12">
-                      <p className="">
+                      <p>
                         "At first, I wasn't confident in myself that I could fit
                         into the tech world because I had no prior experience or
                         knowledge about coding. While looking for a perfect
                         school to help me do that, I stumbled upon TECH ACCENT
-                        and today I can proudly call myself a full-stack
-                        developer. Tech Accent did not only boost my confidence
-                        but also helped me master the skills I needed in my
-                        career as a full-stack developer."
+                        and today, the rest is history. Tech Accent did not only
+                        boost my confidence but also helped me master the skills
+                        I needed in my career as a full-stack developer."
                       </p>
-                      <h1>Rita Chiaha</h1>
+                      <h4>Rita Chiaha</h4>
                       <p>Lagos, Nigeria</p>
                     </div>
                   </div>
@@ -126,23 +159,33 @@ const About = () => {
                 <div class="carousel-item carou-item-1">
                   <div className="row nas">
                     <div className="carou-text col-lg-6 ps-4">
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "Trying to learn JavaScript and web development on my
+                        own was a real struggle. I had attempted it a number of
+                        times over the past couple of months but always found
+                        myself feeling overwhelmed by the sheer amount of
+                        information out there. Thank God I found Tech Accent.
+                        Instead of drowning in theory, Tech Accent gets you
+                        straight into practicing with exercises every step of
+                        the way. It was worth every penny!"
                       </p>
-                      <h1>Nasiru Aimanosi</h1>
+                      <h4>Nasiru Aimanosi</h4>
                       <p>Lagos, Nigeria</p>
                     </div>
 
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
-                      <h1>Nasiru Aimanosi</h1>
+                      <h3>Nasiru Aimanosi</h3>
                       <p>Lagos, Nigeria</p>
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "Trying to learn JavaScript and web development on my
+                        own was a real struggle. I had attempted it a number of
+                        times over the past couple of months but always found
+                        myself feeling overwhelmed by the sheer amount of
+                        information out there. Thank God I found Tech Accent.
+                        Instead of drowning in theory, Tech Accent gets you
+                        straight into practicing with exercises every step of
+                        the way. It was worth every penny!"
                       </p>
                     </div>
 
@@ -158,26 +201,31 @@ const About = () => {
                     <div className="col-lg-6 left-image chuks">
                       <img src={chuks} class="d-block" alt="..." width="75%" />
                     </div>
-
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
-                      <h1>Chuks Awa</h1>
+                      <h3>Chuks Awa</h3>
                       <p>Dubai, UAE</p>
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "Tech Accent employs an interactive approach for
+                        learning to keep you engaged and motivated, making the
+                        learning experience, physically or virtually, much more
+                        enjoyable than traditional lecture-based classes. This
+                        applies to you especially if you are the hands-on, 'get
+                        straight into it' kind of person."
                       </p>
                     </div>
 
                     {/* Desktop */}
                     <div className="carou-text col-lg-6">
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "Tech Accent employs an interactive approach for
+                        learning to keep you engaged and motivated, making the
+                        learning experience, physically or virtually, much more
+                        enjoyable than traditional lecture-based classes. This
+                        applies to you especially if you are the hands-on, 'get
+                        straight into it' kind of person."
                       </p>
-                      <h1>Chuks Awa</h1>
+                      <h4>Chuks Awa</h4>
                       <p>Dubai, UAE</p>
                     </div>
                   </div>
@@ -187,22 +235,26 @@ const About = () => {
                 <div class="carousel-item carou-item-1">
                   <div className="row tewo">
                     <div className="carou-text col-lg-6 ps-4">
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "It's hard to know where to begin when there's so much
+                        unstructured information available. But luckily I ran
+                        into Tech Accent Academy it is an online/on-site
+                        platform that provides hands-on learning experiences in
+                        JavaScript full stack web development."
                       </p>
-                      <h1>Tewogbade Tella</h1>
+                      <h4>Tewogbade Tella</h4>
                       <p>Lagos, Nigeria</p>
                     </div>
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
-                      <h1>Tewogbade Tella</h1>
+                      <h3>Tewogbade Tella</h3>
                       <p>Lagos, Nigeria</p>
-                      <p className="lead text-muted">
-                        "Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Odit dicta provident tempore numquam pariatur
-                        recusandae porro est repellat dolore asperiores."
+                      <p>
+                        "It's hard to know where to begin when there's so much
+                        unstructured information available. But luckily I ran
+                        into Tech Accent Academy it is an online/on-site
+                        platform that provides hands-on learning experiences in
+                        JavaScript full stack web development."
                       </p>
                     </div>
 
@@ -218,7 +270,7 @@ const About = () => {
                 </div>
 
                 {/* Theophilus */}
-                <div class="carousel-item carou-item-1">
+                {/* <div class="carousel-item carou-item-1">
                   <div className="row">
                     <div className="col-lg-6 left-image sunday">
                       <img
@@ -227,10 +279,10 @@ const About = () => {
                         alt="..."
                         width="60.6%"
                       />
-                    </div>
+                    </div> */}
 
-                    {/* Mobile */}
-                    <div className="mobile-carou-text col-12 text-center">
+                {/* Mobile */}
+                {/* <div className="mobile-carou-text col-12 text-center">
                       <h1>Theophilus Sunday</h1>
                       <p>Lagos, Nigeria</p>
                       <p className="lead text-muted">
@@ -238,10 +290,10 @@ const About = () => {
                         elit. Odit dicta provident tempore numquam pariatur
                         recusandae porro est repellat dolore asperiores."
                       </p>
-                    </div>
-                    {/* Desktop */}
+                    </div> */}
 
-                    <div className="carou-text col-lg-6 ps-4">
+                {/* Desktop */}
+                {/* <div className="carou-text col-lg-6 ps-4">
                       <p className="lead text-muted">
                         "Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Odit dicta provident tempore numquam pariatur
@@ -251,7 +303,7 @@ const About = () => {
                       <p>Lagos, Nigeria</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <button

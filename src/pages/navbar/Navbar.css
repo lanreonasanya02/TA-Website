@@ -37,6 +37,7 @@
   background: linear-gradient(to right, rgb(29, 205, 254), rgb(32, 207, 196));
   border: 3px double #20cfc4;
   padding: 10px 2rem;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-nav .btn-hire:hover {

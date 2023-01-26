@@ -41,7 +41,7 @@
 .about .about-body .brief {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 .about .about-body .brief-image {
@@ -85,12 +85,13 @@
 }
 
 .left-image {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
 
 .left-image img {
-  /* border-radius: 5rem; */
+  width: 100%;
   border-bottom: 3px solid #20cfc4;
 }
 
@@ -103,16 +104,9 @@
   text-align: end;
 }
 
-/* .nasiru,
-.rita,
-.tewogbade,
-.chuks,
-.sunday {
-  border-bottom: 4px solid #20cfc4;
-} */
-
 .carou-text > p {
   margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .mobile-carou-text {

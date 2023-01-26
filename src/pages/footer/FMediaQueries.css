@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 768px) {
   footer {
     text-align: center;
   }
@@ -58,5 +58,36 @@
 
   footer .attribution {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  footer .footer-navbar {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    text-align: end;
+  }
+
+  footer .footer-logo {
+    text-align: start;
+  }
+
+  footer .footer-logo img {
+    width: 60%;
+    border-top: 5px solid #20cfc4;
+    padding-top: 3rem;
+  }
+
+  footer .footer-links {
+    align-content: flex-end;
+  }
+
+  .footer-navbar .link1 {
+    margin-right: 14px;
+  }
+
+  footer .footer-body {
+    margin: 3rem 0;
+    width: 100%;
   }
 }

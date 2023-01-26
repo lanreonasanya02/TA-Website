@@ -26,7 +26,7 @@ const EnrollmentFS = () => {
       </div>
 
       <div className="enroll-form">
-        <div className="container">
+        <div className="container-lg">
           <p className="go-back">
             <Link to="#" onClick={goBack}>
               {" "}

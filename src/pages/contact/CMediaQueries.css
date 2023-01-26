@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
       url(../../images/call-mobile.jpg);
@@ -8,10 +8,10 @@
     height: 120vh;
   }
 
-  .contact .heading h1 {
+  /* .contact .heading h1 {
     margin: 8rem 0 4rem;
     font-size: 2rem;
-  }
+  } */
 
   .contact .contact-headings {
     color: #20cfc4;
@@ -51,5 +51,39 @@
   .mobile-hero-text {
     display: block;
     margin-top: 3rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  /* .contact {
+    text-align: center;
+  } */
+
+  .mobile-hero-form {
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 4rem 2rem;
+    margin: 3rem 0;
+    color: #fff;
+    border-radius: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+      url(../../images/registration.webp);
+    height: 100%;
+    justify-content: center;
+  }
+
+  .contact-hero {
+    display: none;
+  }
+
+  .mobile-hero-text {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact-hero {
+    display: flex;
   }
 }

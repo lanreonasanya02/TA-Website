@@ -31,11 +31,17 @@ const Programmes = () => {
             <h1 className="">
               Find The B<span>est Program</span>me For You!
             </h1>
-            <p className="my-5 lead">
-              Develop job-ready digital skills for as few as 6 hours per week -
-              physically or online where you can choose when and where it’s
-              convenient for you to learn. Choose from our range of programmes
-              to begin your tech career.
+            <p className="mt-5 lead">
+              We know switching careers for newbies can be very daunting,
+              however, our beginner-friendly currriculum and structure were
+              tailored just for you to help you advance seamlessly and
+              fully-equipped to make you job-ready. Learn digital skills for as
+              few as 6 hours per week - physically or online where you can
+              choose when and where it’s convenient for you to learn.
+            </p>
+
+            <p className="mb-5 lead">
+              Choose from our range of programmes to begin your tech career.
             </p>
 
             {/* Cards */}
@@ -311,7 +317,7 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 8 weeks at 8hrs/weekends
+                    Beginner class, 8 weeks at 8hrs/week
                   </p>
                 </div>
 
@@ -342,7 +348,7 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 8 weeks at 8hrs/weekends
+                    Beginner class, 8 weeks at 8hrs/week
                   </p>
                 </div>
 

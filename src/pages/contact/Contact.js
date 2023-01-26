@@ -27,16 +27,32 @@ const Contact = () => {
             Let's St<span>art A Conv</span>ersation
           </p>
 
-          <p className="container mobile-top-paragraph">
-            We know switching careers for newbies can be very daunting, however,
-            our beginner-friendly currriculum and structure were tailored just
-            for you to help you advance seamlessly and fully-equipped to make
-            you job-ready.
+          <p className="container mobile-top-paragraph lead">
+            Want to learn more about our products and services? Below are how
+            you could reach us.
           </p>
 
-          <p className="container mobile-top-paragraph">
-            Here's how you could reach us.
-          </p>
+          <div className="mobile-hero-text container my-5 pt-3">
+            {/* <p className="lead contact-headings headings-1">
+              Our Co<span>ntact D</span>etails
+            </p> */}
+            <div className="mt-3 d-flex">
+              <FiMapPin id="contact-icon" />
+              <p className="ms-2">
+                33a, Odozi Street, Opposite Dankaro Estate, Ojodu Berger, Lagos
+                State, Nigeria
+              </p>
+            </div>
+            <p className="">
+              {" "}
+              <BsTelephone id="contact-icon" /> +234-813-6128-748
+            </p>
+
+            <p className="">
+              <HiOutlineMail id="contact-icon" />
+              info@techaccentng.com
+            </p>
+          </div>
 
           {/* For Mobile */}
           <div className="hero-form contact mobile-hero-form">
@@ -61,35 +77,13 @@ const Contact = () => {
                 id=""
                 cols="40"
                 rows="3"
-                placeholder="Message"
+                placeholder="Additional Message"
               ></textarea>
 
               <button type="submit" className="btn btn-lg btn-enroll px-5 mt-4">
                 Send Message
               </button>
             </form>
-          </div>
-
-          <div className="mobile-hero-text container">
-            <p className="lead contact-headings headings-1">
-              Our Co<span>ntact D</span>etails
-            </p>
-            <div className="mt-3 d-flex">
-              <FiMapPin id="contact-icon" />
-              <p className="ms-2">
-                33a, Odozi Street, Opposite Dankaro Estate, Ojodu Berger, Lagos
-                State, Nigeria
-              </p>
-            </div>
-            <p className="">
-              {" "}
-              <BsTelephone id="contact-icon" /> +234-813-6128-748
-            </p>
-
-            <p className="">
-              <HiOutlineMail id="contact-icon" />
-              info@techaccentng.com
-            </p>
           </div>
 
           {/* For Desktop */}

@@ -43,8 +43,10 @@ const Footer = () => {
         </div>
 
         <div className="line"></div>
+
         <div className="footer-end text-muted">
           <p>Copyright 2023. All Rights Reserved.</p>
+
           <div className="socials">
             <a
               href="mailto:info@techaccentng.com"

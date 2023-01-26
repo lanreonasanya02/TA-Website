@@ -54,7 +54,7 @@ const EnrollmentDA = () => {
       </div>
 
       <div className="enroll-form">
-        <div className="container">
+        <div className="container-lg">
           <p className="text-danger go-back">
             <Link to="#" onClick={goBack}>
               {" "}
