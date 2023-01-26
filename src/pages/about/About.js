@@ -30,9 +30,9 @@ const About = () => {
         <div className="container">
           <div className="brief">
             <div className="brief-text">
-              {/* <h3 className="brief-text-head">
+              <h3 className="brief-text-head">
                 Ou<span>r Cre</span>ed
-              </h3> */}
+              </h3>
 
               <p>
                 <span className="first-letter">A</span>t Tech Accent, it is not
@@ -58,35 +58,45 @@ const About = () => {
           </div>
 
           <div className="brief">
-            <div className="brief-image">
+            <div className="brief-image brief-image-group">
               <img
                 src={group}
                 alt="group-with-certificates"
-                className="actual-image2"
-                width="60%"
+                className="actual-image2 "
               />
             </div>
             <div className="brief-text">
+              <h3 className="brief-text-head">
+                Ou<span>r Cre</span>ed
+              </h3>
+
               <p>
                 <span className="first-letter">W</span>e understand the
-                complexities surrounding programming in its entirety and as
-                such, we intend to use this course to demystify programming to
-                the most basic level to take you from a complete novice to
-                mastery level and to make you job-ready at the end of the
-                course.
+                complexities surrounding tech in its entirety and as such, we
+                have engaged qualified and passionate minds to help budding
+                technology enthusiasts understand these complexities by
+                demystifying them to the most basic level to take you from a
+                complete novice level to mastery. At the end of any of our
+                programs, we assure you that you would have been job-ready.
               </p>
             </div>
           </div>
 
           <div className="brief">
             <div className="brief-text">
+              <h3 className="brief-text-head">
+                Condu<span>cive Lea</span>rning
+              </h3>
+
               <p>
-                <span className="first-letter">W</span>e understand the
-                complexities surrounding programming in its entirety and as
-                such, we intend to use this course to demystify programming to
-                the most basic level to take you from a complete novice to
-                mastery level and to make you job-ready at the end of the
-                course.
+                <span className="first-letter">W</span>ith our state-of-the-art
+                facility and conducive learning environment, learning a skill
+                just got easier! We know that for our creative genius to come
+                out, our environment plays a significant role and this is why at
+                Tech Accent, we are concerned with ensuring that the ambience
+                and aura that you need to have the right focus and learning
+                experience is guaranteed so that you could direct your energy
+                and creativity to the right areas.
               </p>
             </div>
 
@@ -94,8 +104,7 @@ const About = () => {
               <img
                 src={classroom}
                 alt="classroom"
-                className="actual-image2"
-                width="60%"
+                className="actual-image2 brief-image-class"
               />
             </div>
           </div>

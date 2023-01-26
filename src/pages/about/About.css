@@ -14,14 +14,14 @@
   text-align: center;
 }
 
-/* .brief-text-head {
+.brief-text-head {
   margin-bottom: 2rem;
 }
 
 .brief-text-head span {
   border-bottom: 5px solid #20cfc4;
   padding-bottom: 7px;
-} */
+}
 
 .about .about-content h1 {
   text-align: center;
@@ -45,14 +45,15 @@
 }
 
 .about .about-body .brief-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  padding-left: 3rem;
+  text-align: end;
+}
+
+.about .about-body .brief-image-group {
+  text-align: start;
 }
 
 .about .about-body .actual-image2 {
-  width: 85%;
+  width: 75%;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 5px double #20cfc4;
   border-top-left-radius: 5rem;
@@ -65,15 +66,13 @@
 
 .about .about-body .brief-text {
   align-self: center;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   text-align: justify;
 }
 
 .about .about-body .brief-text p .first-letter {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
   color: #20cfc4;
-  padding: 0;
 }
 
 /* Testimonials */
