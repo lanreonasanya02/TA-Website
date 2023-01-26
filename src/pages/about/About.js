@@ -28,7 +28,7 @@ const About = () => {
 
       <div className="about-body">
         <div className="container">
-          <div className="brief">
+          <div className="brief brief-one">
             <div className="brief-text">
               <h3 className="brief-text-head">
                 Ou<span>r Cre</span>ed
@@ -57,7 +57,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="brief">
+          <div className="brief brief-two">
             <div className="brief-image brief-image-group">
               <img
                 src={group}
@@ -82,7 +82,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="brief">
+          <div className="brief brief-three">
             <div className="brief-text">
               <h3 className="brief-text-head">
                 Condu<span>cive Lea</span>rning
