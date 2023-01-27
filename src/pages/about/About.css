@@ -76,21 +76,35 @@
 
 /* Testimonials */
 .about-end {
-  background-color: rgb(67, 66, 66);
-  color: #fff;
-  padding: 3rem 0 0;
-  height: 95vh;
+  /* background-color: rgb(67, 66, 66); */
+  background-color: #fff;
+  color: #000;
+  margin: 3rem 5rem;
+  padding: 3rem 4rem 0;
+  height: 80vh;
 }
 
 .left-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.chuks,
+.tewogbade,
+.nas,
+.rita {
+  display: flex;
   justify-content: center;
 }
 
-.left-image img {
-  width: 100%;
-  /* border-bottom: 3px solid #20cfc4; */
+.nas img,
+.rita img {
+  width: 45%;
+}
+
+.chuks img,
+.tewogbade img {
+  width: 60%;
 }
 
 .carou-text {

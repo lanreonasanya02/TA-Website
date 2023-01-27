@@ -115,7 +115,7 @@ const About = () => {
           <div className="container">
             <div className="container about-content">
               <h1 className="">
-                Tes<span>timoni</span>als
+                Test<span>imon</span>ials
               </h1>
             </div>
 
@@ -169,7 +169,7 @@ const About = () => {
 
                 {/* Nasiru */}
                 <div class="carousel-item carou-item-1">
-                  <div className="row nas">
+                  <div className="row nasiru">
                     <div className="carou-text col-lg-6 ps-4">
                       <p>
                         "Trying to learn JavaScript and web development on my
@@ -204,7 +204,7 @@ const About = () => {
                       </p>
                     </div>
 
-                    <div className="col-lg-6 left-image nasiru">
+                    <div className="col-lg-6 left-image nas">
                       <img src={nas} class="d-block" alt="..." />
                     </div>
                   </div>
@@ -214,7 +214,7 @@ const About = () => {
                 <div class="carousel-item carou-item-1">
                   <div className="row">
                     <div className="col-lg-6 left-image chuks">
-                      <img src={chuks} class="d-block" alt="..." width="75%" />
+                      <img src={chuks} class="d-block" alt="..." />
                     </div>
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
@@ -279,12 +279,7 @@ const About = () => {
                     </div>
 
                     <div className="col-lg-6 left-image tewogbade">
-                      <img
-                        src={tewogbade}
-                        class="d-block"
-                        alt="..."
-                        width="74%"
-                      />
+                      <img src={tewogbade} class="d-block" alt="..." />
                     </div>
                   </div>
                 </div>

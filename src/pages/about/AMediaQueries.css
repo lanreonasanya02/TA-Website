@@ -74,7 +74,8 @@
     background-color: #fff;
     color: #000;
     padding: 3rem 0 0;
-    height: 100vh;
+    margin: 3rem 0;
+    height: 110vh;
   }
 
   .mobile-carou-text {
@@ -85,7 +86,7 @@
     display: none;
   }
 
-  .nas,
+  .nasiru,
   .tewo {
     flex-direction: column-reverse;
   }
@@ -99,12 +100,13 @@
     width: 50%;
   }
 
-  .nas img,
+  .nasiru img,
   .rita img {
     width: 35%;
   }
 
   .left-image {
     display: flex;
+    justify-content: center;
   }
 }
