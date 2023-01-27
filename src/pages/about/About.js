@@ -416,10 +416,10 @@ const About = () => {
                   <div class="accordion-body">
                     <p>
                       If there was an industry that had no bias about gender,
-                      age or race, it is tech. You do not need a computer
-                      science degree or to have been an A1 student in Math to be
-                      able to have your share in the industry. There is no
-                      'late-comer' either. As long as you have the drive,
+                      age, qualification or race, it is tech. You do not need a
+                      computer science degree or to have been an A1 student in
+                      Math to be able to have your share in the industry. There
+                      is no 'late-comer' either. As long as you have the drive,
                       commitment and the genuine desire to change the world by
                       creating solutions to real-world problems, then yes, the
                       program is right for you!
