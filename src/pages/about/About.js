@@ -356,7 +356,7 @@ const About = () => {
 
         {/* FAQS */}
         <div className="about-faqs container">
-          <div className="container about-content">
+          <div className="about-content">
             <h1 className="">
               Frequentl<span>y Asked</span> Questions
             </h1>
