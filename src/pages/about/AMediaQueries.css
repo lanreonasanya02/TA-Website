@@ -70,26 +70,11 @@
   }
 
   /* Testimonials */
-
   .about-end {
+    background-color: #fff;
+    color: #000;
+    padding: 3rem 0 0;
     height: 120vh;
-  }
-
-  .nas,
-  .tewo {
-    flex-direction: column-reverse;
-  }
-
-  .nasiru,
-  .rita,
-  .tewogbade,
-  .chuks,
-  .sunday {
-    border-bottom: none;
-  }
-
-  .left-image img {
-    border-radius: 5rem;
   }
 
   .mobile-carou-text {
@@ -100,25 +85,26 @@
     display: none;
   }
 
+  .nas,
+  .tewo {
+    flex-direction: column-reverse;
+  }
+
   .mobile-carou-text > p {
-    margin-bottom: 2rem;
     font-style: italic;
   }
 
   .chuks img,
   .tewogbade img {
-    width: 61%;
-  }
-
-  .sunday img {
     width: 50%;
   }
 
-  .nas img {
-    width: 45%;
+  .nas img,
+  .rita img {
+    width: 30%;
   }
 
-  .rita img {
-    width: 41%;
+  .left-image {
+    display: flex;
   }
 }

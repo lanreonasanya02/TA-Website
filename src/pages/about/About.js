@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Navbar from "../navbar/Navbar";
-// import Skills from "./Skills";
 import "./About.css";
 import "./AMediaQueries.css";
 import student from "../../images/Web_3.webp";
@@ -31,19 +30,18 @@ const About = () => {
           <div className="brief brief-one">
             <div className="brief-text">
               <h3 className="brief-text-head">
-                Ou<span>r Cre</span>ed
+                A Lit<span>tle Abo</span>ut Us
               </h3>
 
               <p>
-                <span className="first-letter">A</span>t Tech Accent, it is not
-                just about learning HTML/CSS or about becoming a frontend or a
-                backend or even a full stack developer. It transcends just
-                learning programming and learning how to write codes. We are
-                even more passionate about helping you learn to ‘speak’ tech
-                fluently. We have made it our sole priority to help you
-                accelerate your dream and desire to become a world-class
-                software developer or designer, whether or not you have prior
-                knowledge or experience.
+                <span className="first-letter">W</span>e are a community of tech
+                enthusiasts determined to change the world by creating and
+                proferring solutions to real-world problems. We understand the
+                complexities surrounding tech in its entirety and as such, we
+                have engaged only qualified and passionate minds to help budding
+                technology enthusiasts understand these complexities by
+                demystifying them to the most basic level to take you from a
+                complete novice level to mastery.
               </p>
             </div>
 
@@ -71,13 +69,15 @@ const About = () => {
               </h3>
 
               <p>
-                <span className="first-letter">W</span>e understand the
-                complexities surrounding tech in its entirety and as such, we
-                have engaged qualified and passionate minds to help budding
-                technology enthusiasts understand these complexities by
-                demystifying them to the most basic level to take you from a
-                complete novice level to mastery. At the end of any of our
-                programs, we assure you that you would have been job-ready.
+                <span className="first-letter">O</span>ur work at Tech Accent
+                transcends just learning and acquiring a skill. We are even more
+                passionate about helping you learn how to ‘speak’ tech fluently.
+                This means understanding each concept to its core and being able
+                to use them in today's industry standard. We have made it our
+                sole priority to help you accelerate your dream and desire to
+                become a world-class software developer or designer, whether or
+                not you have prior knowledge or experience. At the end of any of
+                our programs, we assure you that you would have been job-ready.
               </p>
             </div>
           </div>
@@ -129,13 +129,16 @@ const About = () => {
                 <div class="carousel-item carou-item-1 active">
                   <div className="row">
                     <div className="col-lg-6 col-12 left-image rita">
-                      <img src={rita} class="d-block" alt="..." width="50%" />
+                      <img src={rita} class="d-block" alt="student-1" />
                     </div>
 
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
                       <h3>Rita Chiaha</h3>
-                      <p>Lagos, Nigeria</p>
+                      <p>
+                        (JavaScript Full-stack developer) <br />
+                        Lagos, Nigeria
+                      </p>
                       <p>
                         "At first, I wasn't confident in myself that I could fit
                         into the tech world because I had no prior experience or
@@ -185,7 +188,10 @@ const About = () => {
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
                       <h3>Nasiru Aimanosi</h3>
-                      <p>Lagos, Nigeria</p>
+                      <p>
+                        (JavaScript Full-stack developer) <br />
+                        Lagos, Nigeria
+                      </p>
                       <p>
                         "Trying to learn JavaScript and web development on my
                         own was a real struggle. I had attempted it a number of
@@ -199,7 +205,7 @@ const About = () => {
                     </div>
 
                     <div className="col-lg-6 left-image nasiru">
-                      <img src={nas} class="d-block" alt="..." width="54%" />
+                      <img src={nas} class="d-block" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -213,7 +219,10 @@ const About = () => {
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
                       <h3>Chuks Awa</h3>
-                      <p>Dubai, UAE</p>
+                      <p>
+                        (Product Designer) <br />
+                        Dubai, UAE
+                      </p>
                       <p>
                         "Tech Accent employs an interactive approach for
                         learning to keep you engaged and motivated, making the
@@ -247,7 +256,7 @@ const About = () => {
                       <p>
                         "It's hard to know where to begin when there's so much
                         unstructured information available. But luckily I ran
-                        into Tech Accent Academy it is an online/on-site
+                        into Tech Accent Academy. It is an online/on-site
                         platform that provides hands-on learning experiences in
                         JavaScript full stack web development."
                       </p>
@@ -257,11 +266,13 @@ const About = () => {
                     {/* Mobile */}
                     <div className="mobile-carou-text col-12 text-center">
                       <h3>Tewogbade Tella</h3>
-                      <p>Lagos, Nigeria</p>
+                      <p>
+                        (JavaScript Full-stack developer) <br /> Lagos, Nigeria
+                      </p>
                       <p>
                         "It's hard to know where to begin when there's so much
                         unstructured information available. But luckily I ran
-                        into Tech Accent Academy it is an online/on-site
+                        into Tech Accent Academy. It is an online/on-site
                         platform that provides hands-on learning experiences in
                         JavaScript full stack web development."
                       </p>
