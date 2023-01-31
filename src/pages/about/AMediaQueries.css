@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .about {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
       url(../../images/group.jpg);
@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     height: 120vh;
     background-position: center;
+    margin: 0;
+    padding: 0;
   }
 
   .about .about-heading h1 {
@@ -65,7 +67,6 @@
   }
 
   .about .about-body .brief-text {
-    padding: 0;
     text-align: center;
   }
 
@@ -109,4 +110,7 @@
     display: flex;
     justify-content: center;
   }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
 }

@@ -18,34 +18,6 @@ const EnrollmentDA = () => {
     window.history.back();
   };
 
-  // Countdown Timer
-  const countDown = () => {
-    const countDate = new Date("February 4, 2023 00:00:00").getTime();
-    const today = new Date().getTime();
-    const difference = countDate - today;
-
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const day = hour * 24;
-
-    const textDay = Math.floor(difference / day);
-    const textHour = Math.floor((difference % day) / hour);
-    const textMinute = Math.floor((difference % hour) / minute);
-    const textSecond = Math.floor((difference % minute) / second);
-
-    document.querySelector(".day").textContent =
-      textDay < 10 ? `0${textDay}` : `${textDay}`;
-    document.querySelector(".hour").textContent =
-      textHour < 10 ? `0${textHour}` : `${textHour}`;
-    document.querySelector(".minute").textContent =
-      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
-    document.querySelector(".second").textContent =
-      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
-  };
-
-  setInterval(countDown, 1000);
-
   return (
     <section className="enroll">
       <Navbar />
@@ -74,32 +46,6 @@ const EnrollmentDA = () => {
             the most basic level to take you from a complete novice to mastery
             level and also to make you job-ready at the end of the program.
           </p>
-
-          {/* Timer */}
-          <div className="timer container">
-            <p>Data Analysis February 2023 Cohort kicks off in </p>
-            <div className="time">
-              <p className="text-center">
-                <span className="day">00</span>{" "}
-                <span className="period">DAYS</span>
-              </p>
-
-              <p className="text-center">
-                <span className="hour">00</span>{" "}
-                <span className="period">HOURS</span>
-              </p>
-
-              <p className="text-center">
-                <span className="minute">00</span>{" "}
-                <span className="period">MINS</span>
-              </p>
-
-              <p className="text-center">
-                <span className="second">00</span>{" "}
-                <span className="period">SECS</span>
-              </p>
-            </div>
-          </div>
 
           <div className="subscription">
             <div className="sub-form">

@@ -189,14 +189,14 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Advanced class, 4 weeks at 9hrs/week
+                    Beginner class, 4 weeks at 15hrs/week
                   </p>
                 </div>
 
                 <div className="card-body card-info">
                   <div className="title-container">
                     <h5 className="card-title mb-3 fw-bold title">
-                      JavaScript MasterClass
+                      JavaScript Intensive
                     </h5>
                   </div>
                   <div className="body-container">
@@ -208,7 +208,8 @@ const Programmes = () => {
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">₦100,000</span>
+                    Price: <del>₦100,000</del>
+                    <span className="ms-2 lead">₦50,000</span>
                   </p>
                   <Link to="/programmes/js-masterclass" className="card-button">
                     <span>Enroll</span>
@@ -220,27 +221,29 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Advanced class, 4 weeks at 9hrs/week
+                    Beginner class, 4 weeks at 15hrs/week
                   </p>
                 </div>
 
                 <div className="card-body card-info">
                   <div className="title-container">
                     <h5 className="card-title mb-3 fw-bold title">
-                      ReactJS MasterClass
+                      ReactJS Intensive
                     </h5>
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
                       Take your React skills up a notch by enrolling for this
-                      advanced ReactJS program. Here, you'd learn the additional
-                      skills you need to become a ReactJS professional. Master
-                      ReactJS hooks, router DOM, Redux, Jest etc{" "}
+                      intensive ReactJS program. Here, you'd learn the skills
+                      you need to become a ReactJS professional. Master ReactJS
+                      hooks, router DOM, conditional rendering, props, ReactJS
+                      components etc
                     </p>
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">₦100,000</span>
+                    Price: <del>₦100,000</del>
+                    <span className="ms-2 lead">₦50,000</span>
                   </p>
                   <Link
                     to="/programmes/reactjs-masterclass"

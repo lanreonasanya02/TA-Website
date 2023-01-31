@@ -76,7 +76,6 @@
 
 /* Testimonials */
 .about-end {
-  /* background-color: rgb(67, 66, 66); */
   background-color: #fff;
   color: #000;
   margin: 3rem 5rem;
@@ -87,6 +86,7 @@
 .left-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .chuks,
@@ -111,7 +111,7 @@
   align-self: center;
 }
 
-.nas .carou-text,
+.nasiru .carou-text,
 .tewo .carou-text {
   text-align: end;
 }

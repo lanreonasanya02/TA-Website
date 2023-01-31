@@ -18,6 +18,34 @@ const EnrollmentRJS = () => {
     window.history.back();
   };
 
+  // Countdown Timer
+  const countDown = () => {
+    const countDate = new Date("February 13, 2023 00:00:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent =
+      textDay < 10 ? `0${textDay}` : `${textDay}`;
+    document.querySelector(".hour").textContent =
+      textHour < 10 ? `0${textHour}` : `${textHour}`;
+    document.querySelector(".minute").textContent =
+      textMinute < 10 ? `0${textMinute}` : `${textMinute}`;
+    document.querySelector(".second").textContent =
+      textSecond < 10 ? `0${textSecond}` : `${textSecond}`;
+  };
+
+  setInterval(countDown, 1000);
+
   return (
     <section className="enroll">
       <Navbar />
@@ -44,6 +72,32 @@ const EnrollmentRJS = () => {
             and concepts and enables learners have the foundational React skills
             that are necessary to build production-ready applications.
           </p>
+
+          {/* Timer */}
+          <div className="timer container">
+            <p>ReactJS Intensive February 2023 Cohort kicks off in </p>
+            <div className="time">
+              <p className="text-center">
+                <span className="day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+            </div>
+          </div>
 
           <div className="subscription">
             <div className="sub-form">

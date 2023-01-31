@@ -26,7 +26,7 @@ const About = () => {
       </div>
 
       <div className="about-body">
-        <div className="container">
+        <div className="container-lg">
           <div className="brief brief-one">
             <div className="brief-text">
               <h3 className="brief-text-head">
@@ -192,16 +192,12 @@ const About = () => {
                         (JavaScript Full-stack developer) <br />
                         Lagos, Nigeria
                       </p>
-                      <p>
-                        "Trying to learn JavaScript and web development on my
-                        own was a real struggle. I had attempted it a number of
-                        times over the past couple of months but always found
-                        myself feeling overwhelmed by the sheer amount of
-                        information out there. Thank God I found Tech Accent.
-                        Instead of drowning in theory, Tech Accent gets you
-                        straight into practicing with exercises every step of
-                        the way. It was worth every penny!"
-                      </p>
+                      "It's hard to know where to begin when there's so much
+                      unstructured information available. But luckily I ran into
+                      Tech Accent Academy. It is an online/on-site platform that
+                      provides hands-on learning experiences in JavaScript full
+                      stack web development."
+                      <p></p>
                     </div>
 
                     <div className="col-lg-6 left-image nas">
@@ -254,11 +250,15 @@ const About = () => {
                   <div className="row tewo">
                     <div className="carou-text col-lg-6 ps-4">
                       <p>
-                        "It's hard to know where to begin when there's so much
-                        unstructured information available. But luckily I ran
-                        into Tech Accent Academy. It is an online/on-site
-                        platform that provides hands-on learning experiences in
-                        JavaScript full stack web development."
+                        "Joining Tech accent was one of the best decisions I
+                        made in 2022. Before I joined the JavaScript full stack
+                        web dev program, I was taking some online courses but I
+                        could barely understand anything and I almost lost hope
+                        until I joined Tech Accent. I was able to learn so much
+                        and in such a meaningful way, thanks to our passionate
+                        tutor’s ability to simplify “complex” topics. Overall,
+                        it was a thorough coding experience involving both front
+                        end and back end technologies, I’ll recommend!"
                       </p>
                       <h4>Tewogbade Tella</h4>
                       <p>Lagos, Nigeria</p>
@@ -270,11 +270,15 @@ const About = () => {
                         (JavaScript Full-stack developer) <br /> Lagos, Nigeria
                       </p>
                       <p>
-                        "It's hard to know where to begin when there's so much
-                        unstructured information available. But luckily I ran
-                        into Tech Accent Academy. It is an online/on-site
-                        platform that provides hands-on learning experiences in
-                        JavaScript full stack web development."
+                        "Joining Tech accent was one of the best decisions I
+                        made in 2022. Before I joined the JavaScript full stack
+                        web dev program, I was taking some online courses but I
+                        could barely understand anything and I almost lost hope
+                        until I joined Tech Accent. I was able to learn so much
+                        and in such a meaningful way, thanks to our passionate
+                        tutor’s ability to simplify “complex” topics. Overall,
+                        it was a thorough coding experience involving both front
+                        end and back end technologies, I’ll recommend!"
                       </p>
                     </div>
 
