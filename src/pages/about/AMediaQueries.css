@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 991px) {
   .about {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
       url(../../images/group.jpg);
@@ -75,7 +75,7 @@
     background-color: #fff;
     color: #000;
     padding: 3rem 0 0;
-    margin: 3rem 0;
+    margin: 3rem 0 12rem;
     height: 110vh;
   }
 
@@ -112,5 +112,9 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-end {
+    margin: 8rem 2rem;
+    padding: 3rem 0;
+  }
 }
