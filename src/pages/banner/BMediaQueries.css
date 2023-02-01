@@ -1,13 +1,12 @@
 @media (min-width: 320px) and (max-width: 576px) {
   .timer-section {
-    padding: 0 10px;
+    display: block;
     background-color: #000;
     color: #fff;
-    letter-spacing: 1px;
   }
 
   .timers {
-    padding: 12px 10px 0;
+    padding: 8px 14px 0;
   }
 
   .desktop-banner {
@@ -32,13 +31,11 @@
     background-color: #fff;
     margin-right: 5px;
     border-radius: 5px;
-    padding: 0 8px;
   }
 
   .mobile-banner span {
     font-size: 8px;
     color: #000;
-    /* font-weight: bold; */
   }
 
   .mobile-banner .number {
@@ -51,12 +48,24 @@
   }
 
   .timers .cohort {
-    font-size: 12px;
+    font-size: 13px;
     text-align: start;
-    margin-right: 1rem;
   }
 
-  .close-icon {
-    text-align: end;
+  .close-icon-desktop {
+    display: none;
+  }
+
+  .close-icon-mobile {
+    display: block;
+    color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 5px;
+  }
+
+  .close-icon-mobile:hover {
+    color: rgb(172, 118, 118);
+    cursor: pointer;
   }
 }

@@ -60,34 +60,42 @@ const Banner = () => {
             </p>
 
             {/* Timer */}
-            <div className="">
-              <div className="banner-timer">
-                <p className="text-center">
-                  <span className="number day">00</span>{" "}
-                  <span className="period">DAYS</span>
-                </p>
 
-                <p className="text-center">
-                  <span className="number hour">00</span>{" "}
-                  <span className="period">HOURS</span>
-                </p>
+            <div className="banner-timer">
+              <p className="text-center">
+                <span className="number day">00</span>{" "}
+                <span className="period">DAYS</span>
+              </p>
 
-                <p className="text-center">
-                  <span className="number minute">00</span>{" "}
-                  <span className="period">MINS</span>
-                </p>
+              <p className="text-center">
+                <span className="number hour">00</span>{" "}
+                <span className="period">HOURS</span>
+              </p>
 
-                <p className="text-center">
-                  <span className="number second">00</span>{" "}
-                  <span className="period">SECS</span>
-                </p>
+              <p className="text-center">
+                <span className="number minute">00</span>{" "}
+                <span className="period">MINS</span>
+              </p>
+
+              <p className="text-center">
+                <span className="number second">00</span>{" "}
+                <span className="period">SECS</span>
+              </p>
+
+              <div className="close-icon-mobile">
+                <MdOutlineClose
+                  className="icon4close "
+                  onClick={dismissSection}
+                  data-bs-toggle="tool-tip"
+                  data-bs-title="Close"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="close-icon">
+      <div className="close-icon-desktop">
         <MdOutlineClose
           className="icon4close "
           onClick={dismissSection}
