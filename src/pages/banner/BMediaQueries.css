@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .timer-section {
     padding: 0 10px;
     background-color: #000;
@@ -18,11 +18,32 @@
     display: block;
   }
 
+  .mobile-banner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-banner .banner-timer {
+    display: flex;
+    margin-left: 1.5rem;
+  }
+
+  .mobile-banner .banner-timer p {
+    background-color: #fff;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 0 8px;
+  }
+
   .mobile-banner span {
-    font-size: 10px;
-    color: #fff;
-    font-weight: 600;
-    font-style: italic;
+    font-size: 8px;
+    color: #000;
+    /* font-weight: bold; */
+  }
+
+  .mobile-banner .number {
+    font-size: 1rem;
+    font-weight: bold;
   }
 
   .mobile-banner a {
@@ -30,8 +51,9 @@
   }
 
   .timers .cohort {
-    font-size: 10px;
+    font-size: 12px;
     text-align: start;
+    margin-right: 1rem;
   }
 
   .close-icon {
