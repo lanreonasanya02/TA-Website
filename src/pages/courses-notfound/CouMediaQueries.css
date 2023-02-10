@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .course-error-page {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
       url(../../images/course-nf.jpg);
@@ -6,5 +6,11 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 120vh;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .course-error-page {
+    height: 140vh;
   }
 }
