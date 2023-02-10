@@ -20,10 +20,7 @@ const NotFound = () => {
     <div className="course-error-page">
       <Navbar />
 
-      <div
-        className="text-center text-white container error-text"
-        style={{ height: "100vh" }}
-      >
+      <div className="text-center text-white container error-text">
         <h1 className="display-1">Program Unavailable!</h1> <br />
         <p className="lead">
           Oops🤭! This program is not available at the moment.
