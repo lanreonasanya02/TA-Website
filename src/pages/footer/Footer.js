@@ -109,7 +109,7 @@ const Footer = () => {
 
         <div className="attribution text-muted">
           <p>
-            Created with ❤️ by{" "}
+            Created with 💚 by{" "}
             <a
               href="https://my-portfolio-khaki-psi.vercel.app/"
               target="_blank"
