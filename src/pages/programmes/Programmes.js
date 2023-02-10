@@ -27,7 +27,7 @@ const Programmes = () => {
         </div>
 
         <div className="after-hero">
-          <div className="container after-hero-content">
+          <div className="container-lg after-hero-content">
             <h1 className="">
               Find The B<span>est Program</span>me For You!
             </h1>
@@ -77,7 +77,13 @@ const Programmes = () => {
                     to="/programmes/javascript-full-stack-web-development"
                     className="card-button"
                   >
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -109,7 +115,13 @@ const Programmes = () => {
                     Price: <span className="ms-2 lead">₦400,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -145,7 +157,13 @@ const Programmes = () => {
                     to="/programmes/front-end-web-development"
                     className="card-button"
                   >
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -180,7 +198,13 @@ const Programmes = () => {
                     to="/programmes/back-end-web-development"
                     className="card-button"
                   >
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -212,7 +236,13 @@ const Programmes = () => {
                     <span className="ms-2 lead">₦50,000</span>
                   </p>
                   <Link to="/programmes/js-masterclass" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -249,7 +279,13 @@ const Programmes = () => {
                     to="/programmes/reactjs-masterclass"
                     className="card-button"
                   >
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -281,7 +317,13 @@ const Programmes = () => {
                     Price: <span className="ms-2 lead">₦200,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -311,7 +353,13 @@ const Programmes = () => {
                     Price: <span className="ms-2 lead">NA</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -342,7 +390,13 @@ const Programmes = () => {
                     Price: <span className="ms-2 lead">₦150,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -372,7 +426,13 @@ const Programmes = () => {
                     Price: <span className="ms-2 lead">₦100,000</span>
                   </p>
                   <Link to="/programmes/data-analysis" className="card-button">
-                    <span>Enroll</span>
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
                   </Link>
                 </div>
               </div>

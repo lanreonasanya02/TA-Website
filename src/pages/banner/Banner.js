@@ -45,9 +45,15 @@ const Banner = () => {
           <p className="desktop-banner">
             The next Data Analysis cohort begins on the 4th of February, 2023.
             Early birds get up to <span>10% off</span>. {"   "}
-            <Link to="/programmes/data-analysis" className="banner-link">
-              <u>Register here</u>
-            </Link>
+            <span
+              className="tt"
+              data-bs-placement="bottom"
+              title="Click to register"
+            >
+              <Link to="/programmes/data-analysis" className="banner-link">
+                <u>Register here</u>
+              </Link>
+            </span>
           </p>
 
           <div className="mobile-banner">
@@ -82,12 +88,10 @@ const Banner = () => {
                 <span className="period">SECS</span>
               </p>
 
-              <div className="close-icon-mobile">
+              <div className="close-icon-mobile" data-tooltip="Close">
                 <MdOutlineClose
-                  className="icon4close "
+                  className="icon4close"
                   onClick={dismissSection}
-                  data-bs-toggle="tool-tip"
-                  data-bs-title="Close"
                 />
               </div>
             </div>
@@ -96,12 +100,9 @@ const Banner = () => {
       </div>
 
       <div className="close-icon-desktop">
-        <MdOutlineClose
-          className="icon4close "
-          onClick={dismissSection}
-          data-bs-toggle="tool-tip"
-          data-bs-title="Close"
-        />
+        <span className="tt" data-bs-placement="bottom" title="Close">
+          <MdOutlineClose className="icon4close" onClick={dismissSection} />
+        </span>
       </div>
     </div>
   );

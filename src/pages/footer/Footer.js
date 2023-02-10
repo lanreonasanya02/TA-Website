@@ -54,7 +54,13 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <HiOutlineMail />
+              <span
+                className="tt"
+                data-bs-placement="bottom"
+                title="Send us a mail"
+              >
+                <HiOutlineMail />
+              </span>
             </a>
             <a
               href="https://www.instagram.com/tech__accent"
@@ -62,7 +68,13 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaInstagram />
+              <span
+                className="tt"
+                data-bs-placement="bottom"
+                title="Check us out on Instagram"
+              >
+                <FaInstagram />
+              </span>
             </a>
             <a
               href="https://www.linkedin.com/company/tech-accent-creatives"
@@ -70,7 +82,13 @@ const Footer = () => {
               rel="noreferrer"
               className="icon icon1"
             >
-              <FaLinkedinIn />
+              <span
+                className="tt"
+                data-bs-placement="bottom"
+                title="Check us out on LinkedIn"
+              >
+                <FaLinkedinIn />
+              </span>
             </a>
             <a
               href="https://twitter.com/tech__accent"
@@ -78,7 +96,13 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter />
+              <span
+                className="tt"
+                data-bs-placement="bottom"
+                title="Check us out on Twitter"
+              >
+                <FaTwitter />
+              </span>
             </a>
           </div>
         </div>

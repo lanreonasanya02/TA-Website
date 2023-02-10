@@ -20,7 +20,15 @@ const Header = () => {
 
         <div className="head pt-5">
           <div className="head-content text-white container">
-            <div className="typewriter-effect display-1 mb-4">
+            <div className="mobile-header mb-4">
+              <h1 className="display-4 inner-text fw-bold">
+                Anyone can write code. Not everyone can speak it as{" "}
+                <span className="mobile-span">fluently</span> as we do
+                <span className="mobile-span">.</span>
+              </h1>
+            </div>
+
+            <div className="typewriter-effect display-1 mb-4 desktop-header">
               <h1 className="typewritter-fixed">Want to acquire skills in</h1>
               <Typewriter
                 options={{
@@ -30,7 +38,7 @@ const Header = () => {
                     "Product Design?",
                     "Data Science?",
                     "Data Analysis?",
-                    // "Switching Careers?",
+                    "Switching Careers?",
                     // "Looking to hire?",
                   ],
                   autoStart: true,

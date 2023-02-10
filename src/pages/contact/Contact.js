@@ -33,9 +33,6 @@ const Contact = () => {
           </p>
 
           <div className="mobile-hero-text container my-5 pt-3">
-            {/* <p className="lead contact-headings headings-1">
-              Our Co<span>ntact D</span>etails
-            </p> */}
             <div className="mt-3 d-flex">
               <FiMapPin id="contact-icon" />
               <p className="ms-2">
