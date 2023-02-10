@@ -52,7 +52,7 @@ const Header = () => {
             <h6 className="mb-3 mobile-subtitle">
               Acquire, develop and sharpen your tech skills with custom-made
               schedule and curriculum tailored just for you to set you apart
-              from the comeptition.
+              from the competition.
             </h6>
 
             <Link to="/programmes">
