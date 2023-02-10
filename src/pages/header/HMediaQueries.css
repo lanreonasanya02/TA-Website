@@ -34,6 +34,7 @@
 
   .head .mobile-subtitle {
     display: block;
+    padding: 0 1rem;
   }
 
   .head .desktop-subtitle {
