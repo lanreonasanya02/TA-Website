@@ -32,8 +32,8 @@ header .mobile-header {
   font-weight: 100;
 }
 
-.head .h1-2 {
-  font-size: 1.2rem;
+.head .mobile-subtitle {
+  display: none;
 }
 
 .head .btn-getstarted {
@@ -47,9 +47,9 @@ header .mobile-header {
 
 .btn-getstarted:hover {
   color: #fff;
+  background: rgb(32, 207, 196);
   text-decoration: none;
   border: 1px double #fff;
-  background: rgb(32, 207, 196);
   padding: 10px 2rem;
   width: 250px;
   transition: all 0.5s;

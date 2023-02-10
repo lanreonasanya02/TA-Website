@@ -46,10 +46,15 @@ const Header = () => {
                 }}
               />
             </div>
-            <h1 className="h1-1 mb-3">You've come to the right place!</h1>
-            {/* <h1 className="h1-2">
-              Hit the button below and let's get you set up.
-            </h1> */}
+            <h1 className="h1-1 mb-3 desktop-subtitle">
+              You've come to the right place!
+            </h1>
+            <h6 className="mb-3 mobile-subtitle">
+              Acquire, develop and sharpen tech skills with custom-made
+              curriculum and schedule tailored just for you to set you apart
+              from the comeptition.
+            </h6>
+
             <Link to="/programmes">
               <button className="btn btn-lg btn-getstarted px-5 mt-3">
                 <span>Get started</span>
