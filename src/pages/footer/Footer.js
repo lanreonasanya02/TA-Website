@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="line"></div>
 
         <div className="footer-end text-muted">
-          <p>Copyright 2023. All Rights Reserved.</p>
+          <p>Copyright 2022-2023. All Rights Reserved.</p>
 
           <div className="socials">
             <a

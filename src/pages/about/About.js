@@ -91,10 +91,10 @@ const About = () => {
               <p>
                 <span className="first-letter">W</span>ith our state-of-the-art
                 facility and conducive learning environment, learning a skill
-                just got easier! We know that for our creative genius to come
-                out, our environment plays a significant role and this is why at
-                Tech Accent, we are concerned with ensuring that the ambience
-                and aura that you need to have the right focus and learning
+                just got easier! We know that for our creative genius to evolve,
+                our environment plays a significant role and this is why at Tech
+                Accent, we are concerned with ensuring that the ambience and
+                aura that you need to have the right focus and learning
                 experience is guaranteed so that you could direct your energy
                 and creativity to the right areas.
               </p>

@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 576px) {
   .timer-section {
-    display: block;
+    display: none;
     background-color: #000;
     color: #fff;
   }
