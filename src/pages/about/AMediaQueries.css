@@ -112,6 +112,13 @@
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  /* Testimonials */
+  .about-end {
+    margin: 3rem 0 14rem;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .about-end {
     margin: 8rem 2rem;

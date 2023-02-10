@@ -111,9 +111,9 @@ const About = () => {
         </div>
 
         {/* Testimonials */}
-        <div className="about-end mt-5">
+        <div className="about-end my-5">
           <div className="container">
-            <div className="container about-content">
+            <div className="about-content">
               <h1 className="">
                 Test<span>imon</span>ials
               </h1>
