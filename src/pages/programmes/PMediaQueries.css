@@ -46,6 +46,10 @@
   .main-story-section .card {
     width: 16rem;
   }
+
+  .main-story-section .card .card-info {
+    height: 75vh;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
