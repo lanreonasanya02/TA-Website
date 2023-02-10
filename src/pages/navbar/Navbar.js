@@ -68,7 +68,7 @@ const Navbar = () => {
                 <FiMapPin className="nav-icon" /> Contact
               </Link>
               <Link className="nav-link btn btn-lg btn-hire px-5" to="/hire-us">
-                <FcBusinessman className="nav-icon" /> Hire Us
+                Hire Us
               </Link>
             </div>
           </div>
