@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .hire-section {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(../../images/hire.jpg);
@@ -17,7 +17,7 @@
   }
 
   .hire-after-hero-content {
-    padding: 2rem;
+    padding: 2rem 12px;
   }
 
   .hire-after-hero-content h1 span {
@@ -26,12 +26,12 @@
   }
 
   .hire-after-hero-content > p {
-    margin: 2rem 0;
+    margin: 2rem 0 0;
+    text-align: start;
   }
 
-  .hire-body {
-    display: block;
-    /* padding: 4rem 0; */
+  .hire-left {
+    display: none;
   }
 
   .hire-body .hire-left img {

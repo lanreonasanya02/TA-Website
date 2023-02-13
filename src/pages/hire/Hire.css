@@ -20,10 +20,11 @@
 
 .hire-after-hero {
   background-color: #fff;
+  background-image: url(../../images/stones.webp);
 }
 
 .hire-after-hero-content {
-  padding: 2rem 0;
+  padding: 4rem 2rem;
   background-color: #fff;
   text-align: center;
 }
@@ -45,22 +46,7 @@
 }
 
 .hire-body {
-  display: flex;
   padding: 4rem 0;
-}
-
-.hire-body .hire-left,
-.hire-body .hire-right {
-  width: 50%;
-}
-
-.hire-body .hire-left img {
-  width: 60%;
-  border-radius: 15rem;
-}
-
-.hire-body .hire-left {
-  margin: auto;
 }
 
 .hire-body form input,

@@ -24,26 +24,22 @@ const Hire = () => {
         </div>
 
         <div className="hire-after-hero">
-          <div className=" hire-after-hero-content container">
+          <div className=" hire-after-hero-content container-lg">
             <h1 className="">
               Hire a prof<span>essional for</span> your brand!
             </h1>
             <p className="">
-              Choose from our range of programmes to begin your tech career.
+              Looking to up-scale your business, organization or brand by
+              engaging professionals in tech, Tech Accent Creatives is the best
+              option for you. As is our culture to always impart the right
+              knowledge and skills at our school, it is only normal that we
+              engage only the best qualified hands for you. If you are looking
+              for a product designer, software engineer, data analyst, data
+              scientist, graphics designer, digital marketer etc, fill the form
+              below to get started.
             </p>
 
             <div className="hire-body">
-              <div className="hire-left">
-                <figure>
-                  <img src={tutor} alt="lanre" />
-                  <figcaption className="lead">Lanre Adeolu</figcaption>
-                  <figcaption className="text-muted">
-                    JS Coach & Developer at{" "}
-                    <span className="fst-italic">Tech Accent Creatives</span>
-                  </figcaption>
-                </figure>
-              </div>
-
               <div className="hire-right">
                 <form>
                   <select name="" id="">
@@ -120,7 +116,7 @@ const Hire = () => {
                   />
 
                   <input
-                    type="date"
+                    type="text"
                     name=""
                     id=""
                     placeholder="Deadline*"
