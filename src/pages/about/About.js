@@ -27,11 +27,20 @@ const About = () => {
 
       <div className="about-body">
         <div className="container-lg">
+          <div className="mobile-about-heading">
+            <h1 className="brief-text-head text-center">Why Choose Us?</h1>
+            <p>
+              By 2030, there would be a huge deficit of tech talent globally.
+              Whether you are looking to change your career path or increase
+              your earning, Tech Accent is a tech school designed to accelerate
+              your career in tech.
+            </p>
+          </div>
           <div className="brief brief-one">
             <div className="brief-text">
-              <h3 className="brief-text-head">
+              <h5 className="brief-text-head">
                 A Lit<span>tle Abo</span>ut Us
-              </h3>
+              </h5>
 
               <p>
                 <span className="first-letter">W</span>e are a community of tech
@@ -64,9 +73,9 @@ const About = () => {
               />
             </div>
             <div className="brief-text">
-              <h3 className="brief-text-head">
+              <h5 className="brief-text-head">
                 Ou<span>r Cre</span>ed
-              </h3>
+              </h5>
 
               <p>
                 <span className="first-letter">O</span>ur work at Tech Accent
@@ -84,9 +93,9 @@ const About = () => {
 
           <div className="brief brief-three">
             <div className="brief-text">
-              <h3 className="brief-text-head">
+              <h5 className="brief-text-head">
                 Condu<span>cive Lea</span>rning
-              </h3>
+              </h5>
 
               <p>
                 <span className="first-letter">W</span>ith our state-of-the-art

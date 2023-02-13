@@ -28,10 +28,10 @@ const Programmes = () => {
 
         <div className="after-hero">
           <div className="container-lg after-hero-content">
-            <h1 className="">
+            <h1>
               Find The B<span>est Program</span>me For You!
             </h1>
-            <p className="mt-5 lead">
+            <p>
               We know switching careers for newbies can be very daunting,
               however, our beginner-friendly currriculum and structure were
               tailored just for you to help you advance seamlessly and
@@ -40,7 +40,7 @@ const Programmes = () => {
               choose when and where it’s convenient for you to learn.
             </p>
 
-            <p className="mb-5 lead">
+            <p className="mb-5">
               Choose from our range of programmes to begin your tech career.
             </p>
 

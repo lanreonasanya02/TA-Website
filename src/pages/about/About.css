@@ -7,6 +7,10 @@
   background-position: center;
 }
 
+.about .mobile-about-heading {
+  display: none;
+}
+
 .about .about-heading h1 {
   color: #ffffff;
   margin: 10rem 0;
