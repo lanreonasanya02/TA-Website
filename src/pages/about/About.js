@@ -33,7 +33,8 @@ const About = () => {
               By 2030, there would be a huge deficit of tech talent globally.
               Whether you are looking to change your career path or increase
               your earning, Tech Accent is a tech school designed to accelerate
-              your career in tech.
+              your career in tech. We adopt a do-it-yourself approach giving
+              students the opportunity of enjoying every experience.
             </p>
           </div>
           <div className="brief brief-one">
