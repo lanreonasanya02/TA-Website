@@ -37,11 +37,7 @@ const Footer = () => {
             At Tech Accent, our goal is to build driven, passionate and
             outstanding techies with industry-ready proficiency and soft-skills
             in tech. We change lives, businesses, and nations through digital
-            upskilling, developing the edge you need to conquer what’s next. By
-            2030, there would be a huge deficit of tech talent globally. Whether
-            you are looking to change your career path or increase your earning,
-            Tech Accent is a tech school designed to accelerate your career in
-            tech.
+            upskilling, developing the edge you need to conquer what’s next.
           </p>
         </div>
 
