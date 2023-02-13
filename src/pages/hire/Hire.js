@@ -15,11 +15,6 @@ const Hire = () => {
             <h1 className="display-4 inner-text fw-bold">
               Grow your business/brand!
             </h1>
-
-            <p className="lead">
-              Develop job-ready digital skills for as few as 15 hours per week -
-              physically and online where you can
-            </p>
           </div>
         </div>
 
