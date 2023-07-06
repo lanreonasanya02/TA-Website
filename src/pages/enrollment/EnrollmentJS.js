@@ -20,7 +20,7 @@ const EnrollmentJS = () => {
 
   // Countdown Timer
   const countDown = () => {
-    const countDate = new Date("February 13, 2023 00:00:00").getTime();
+    const countDate = new Date("August 13, 2023 00:00:00").getTime();
     const today = new Date().getTime();
     const difference = countDate - today;
 
