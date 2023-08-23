@@ -73,7 +73,7 @@ header .mobile-header {
   font-size: 10rem;
   text-align: left;
   display: grid;
-  grid-template-columns: 480px 1fr;
+  grid-template-columns: 450px 1fr;
   align-items: center;
   column-gap: 15px;
 }

@@ -81,3 +81,12 @@
     color: #20cfc4;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .typewriter-effect {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    column-gap: 15px;
+  }
+}
