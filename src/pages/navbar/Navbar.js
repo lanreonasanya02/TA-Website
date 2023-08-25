@@ -119,12 +119,7 @@ const Navbar = () => {
               >
                 <HiOutlineMenuAlt2 />
               </span>
-              <img
-                src={logo}
-                alt="logo"
-                className="logo-mobile ms-3"
-                width="40%"
-              />
+              <img src={logo} alt="logo" className="logo-mobile" width="40%" />
             </div>
           </div>
         </div>

@@ -74,8 +74,8 @@ const Header = () => {
             <div className="mobile-header mb-4">
               <h1 className="display-4 inner-text fw-bold">
                 The Industry Is Not As{" "}
-                <span className="mobile-span">Saturated</span> As They Would
-                Have You Believe<span className="mobile-span">.</span>
+                <span className="mobile-span">Saturated</span> As You Think
+                <span className="mobile-span">.</span>
               </h1>
             </div>
 
@@ -101,8 +101,9 @@ const Header = () => {
             </Link>
 
             <h6 className="mb-3 mobile-subtitle">
-              The truth is that you just don't have the right or enough skills
-              yet. Let's help you get ahead and beat the competition.
+              You either don't have the right, on-demand skills or what you have
+              isn't just enough. Let's help you get ahead to beat the
+              competition.
             </h6>
 
             <Link to="/programmes" className="mobile-subtitle ">

@@ -8,6 +8,12 @@
     height: 100vh;
   }
 
+  .head {
+    font-size: 3rem;
+    color: #f1f1f1;
+    padding-top: 3rem;
+  }
+
   header .desktop-header {
     display: none;
   }
@@ -43,8 +49,6 @@
 
   .head .head-content {
     padding: 3rem 0 0;
-    /* text-align: left; */
-
     /* For Center placement */
     display: grid;
     place-items: center;
@@ -57,11 +61,7 @@
     background-color: #20cfc4;
     font-size: 1.2rem;
     margin-top: 1rem;
-  }
-
-  .head .btn-getstarted:hover {
-    background-color: #000;
-    color: #20cfc4;
+    font-weight: 600;
   }
 }
 
