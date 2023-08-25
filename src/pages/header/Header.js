@@ -73,7 +73,7 @@ const Header = () => {
           <div className="head-content text-white container">
             <div className="mobile-header mb-4">
               <h1 className="display-4 inner-text fw-bold">
-                The Industry Is <span className="mobile-span">NOT</span> As
+                The Tech Industry Is <span className="mobile-span">NOT</span> As
                 Saturated As You Think
                 <span className="mobile-span">.</span>
               </h1>
