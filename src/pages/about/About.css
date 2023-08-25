@@ -45,7 +45,13 @@
 .about .about-body .brief {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about .about-body .brief-two {
+  background-color: #f8f8f8;
+  padding: 2rem 0;
+  margin: 4rem 0;
 }
 
 .about .about-body .brief-image {
@@ -82,7 +88,7 @@
 .about-end {
   background-color: #fff;
   color: #000;
-  margin: 3rem 5rem;
+  margin: 5rem 5rem 0;
   padding: 3rem 4rem;
   height: 80vh;
 }
@@ -125,12 +131,18 @@
   font-style: italic;
 }
 
+.rating-icons {
+  color: #20cfc4;
+}
+
 .mobile-carou-text {
   display: none;
 }
 
 /* FAQS */
 .about-faqs {
+  background-color: #f8f8f8;
+  padding: 3rem 0 5rem;
   margin-top: 5rem;
 }
 

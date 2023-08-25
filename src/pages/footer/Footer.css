@@ -1,68 +1,63 @@
 footer {
-  background-color: #000;
+  background-color: #201f1f;
   color: #fff;
-  padding-bottom: 1rem;
-}
-
-footer .footer-navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer .footer-logo img {
-  padding-top: 2rem;
-  border-top: 5px solid #20cfc4;
-}
-
-footer .navbar-links {
-  padding-top: 3rem;
-}
-
-.footer-navbar .link,
-.attribution .link {
-  text-decoration: none;
-  color: #20cfc4;
-}
-
-.footer-navbar .link1 {
-  margin-right: 2.5rem;
-}
-
-.footer-navbar .link:hover,
-.attribution .link:hover {
-  color: #fff;
-}
-
-footer .line {
-  border-bottom: 1px groove gray;
-  margin: 2.5rem 0;
+  padding: 1rem 0;
 }
 
 footer .footer-body {
-  margin: 3rem 0;
-  width: 70%;
+  margin-top: 3rem;
+  text-align: center;
 }
 
-footer .footer-end {
-  display: flex;
-  justify-content: space-between;
+footer h6 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
-.footer-end .icon {
-  color: #20cfc4;
-  font-size: 1.2rem;
-
-  padding: 12px;
+footer .section-one {
+  text-align: left;
 }
 
-.footer-end .icon:hover {
+footer .section-two,
+footer .attribution {
+  text-align: center;
+}
+
+footer .section-two {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: right;
+}
+
+footer .section-three {
+  text-align: center;
+}
+
+footer .section-two a,
+footer .section-three .socials {
+  margin-right: 2rem;
+  font-size: 1.3rem;
   color: #fff;
 }
 
-.footer-end .icon1 {
-  margin-right: 8px;
+footer .section-three a {
+  font-size: 1.3rem;
+  color: #fff;
 }
 
-footer .attribution {
-  text-align: center;
+footer .section-two a:hover,
+footer .section-three a:hover {
+  color: #6a6969;
+}
+
+footer .attribution p {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .attribution p a {
+  color: #ffff00;
 }

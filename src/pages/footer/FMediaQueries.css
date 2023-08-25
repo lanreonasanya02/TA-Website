@@ -1,93 +1,37 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 991px) {
+  footer .navbar-brand {
+    text-align: center;
+    width: 100%;
+  }
+
+  footer .navbar-brand img {
+    width: 40%;
+  }
+
   footer {
-    text-align: center;
+    padding: 1.5rem;
   }
 
-  footer .footer-navbar {
-    display: block;
-    width: 100%;
+  footer .all-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    margin-top: 4rem;
+    /* text-align: center; */
   }
 
-  footer .footer-logo {
-    margin: auto;
-  }
-
-  footer .footer-logo img {
-    width: 50%;
-    border-top: 5px solid #20cfc4;
-    padding-top: 2rem;
-  }
-
-  footer .navbar-links {
-    padding-top: 2rem;
-    font-size: 14px;
-  }
-
-  .footer-navbar .link1 {
+  footer .links-column .socials,
+  footer .links-column a {
     margin-right: 1rem;
-  }
-
-  footer .footer-body {
-    padding: 0 12px;
-    width: 100%;
-    margin: 1rem 0;
-    text-align: center;
-  }
-
-  footer .footer-end {
-    flex-direction: column-reverse;
-    margin: 1rem 0;
-    /* display: block; */
-  }
-
-  .footer-end .icon {
-    font-size: 1.4rem;
-    border: none;
-    padding: 0 10px;
-  }
-
-  .footer-end .icon:hover {
+    font-size: 1rem;
     color: #fff;
-    border: none;
-  }
-
-  .footer-end p {
-    font-size: 14px;
-    margin-top: 12px;
-  }
-
-  footer .attribution {
-    font-size: 12px;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1199px) {
-  footer .footer-navbar {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    text-align: end;
-  }
-
-  footer .footer-logo {
-    text-align: start;
-  }
-
-  footer .footer-logo img {
-    width: 60%;
-    border-top: 5px solid #20cfc4;
-    padding-top: 3rem;
-  }
-
-  footer .footer-links {
-    align-content: flex-end;
-  }
-
-  .footer-navbar .link1 {
-    margin-right: 14px;
-  }
-
-  footer .footer-body {
-    margin: 3rem 0;
-    width: 100%;
+@media (min-width: 768px) and (max-width: 1199px) {
+  footer .section-three .socials {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
   }
 }

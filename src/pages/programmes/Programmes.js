@@ -4,6 +4,7 @@ import "../programmes/PMediaQueries.css";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
+import ScrollToTop from "../scroll-to-top/ScrollToTop";
 
 const Programmes = () => {
   // Scroll To top
@@ -442,6 +443,7 @@ const Programmes = () => {
           </div>
         </div>
         <Footer />
+        <ScrollToTop />
       </div>
     </>
   );
