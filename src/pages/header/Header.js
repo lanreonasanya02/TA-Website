@@ -73,8 +73,8 @@ const Header = () => {
           <div className="head-content text-white container">
             <div className="mobile-header mb-4">
               <h1 className="display-4 inner-text fw-bold">
-                The Industry Is Not As{" "}
-                <span className="mobile-span">Saturated</span> As You Think
+                The Industry Is <span className="mobile-span">NOT</span> As
+                Saturated As You Think
                 <span className="mobile-span">.</span>
               </h1>
             </div>
