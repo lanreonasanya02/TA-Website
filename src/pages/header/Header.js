@@ -73,9 +73,9 @@ const Header = () => {
           <div className="head-content text-white container">
             <div className="mobile-header mb-4">
               <h1 className="display-4 inner-text fw-bold">
-                Anyone can write code. Not everyone can speak it as{" "}
-                <span className="mobile-span">fluently</span> as we do
-                <span className="mobile-span">.</span>
+                The Industry Is Not As{" "}
+                <span className="mobile-span">Saturated</span> As They Would
+                Have You Believe<span className="mobile-span">.</span>
               </h1>
             </div>
 
@@ -101,15 +101,12 @@ const Header = () => {
             </Link>
 
             <h6 className="mb-3 mobile-subtitle">
-              Acquire, develop and sharpen your tech skills with custom-made
-              schedule and curriculum tailored just for you to set you apart
-              from the competition.
+              The truth is that you just don't have the right or enough skills
+              yet. Let's help you get ahead and beat the competition.
             </h6>
 
             <Link to="/programmes" className="mobile-subtitle ">
-              <button className="btn btn-lg btn-getstarted">
-                <span>Get started</span>
-              </button>
+              <button className="btn btn-getstarted">Get started</button>
             </Link>
           </div>
         </div>

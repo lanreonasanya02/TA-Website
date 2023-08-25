@@ -23,8 +23,8 @@ const Footer = () => {
               </div>
 
               <div className="col-md-4 section-three">
-                <Link
-                  to="mailto:info@techaccentng.com"
+                <a
+                  href="mailto:info@techaccentng.com"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
@@ -36,9 +36,9 @@ const Footer = () => {
                   >
                     <AiOutlineMail />
                   </span>
-                </Link>
-                <Link
-                  to="https://www.twitter.com/tech__accent"
+                </a>
+                <a
+                  href="https://www.twitter.com/tech__accent"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
@@ -50,9 +50,9 @@ const Footer = () => {
                   >
                     <FiTwitter />
                   </span>
-                </Link>
-                <Link
-                  to="https://www.instagram.com/tech__accent/"
+                </a>
+                <a
+                  href="https://www.instagram.com/tech__accent/"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
@@ -64,9 +64,9 @@ const Footer = () => {
                   >
                     <FiInstagram />
                   </span>
-                </Link>
-                <Link
-                  to="https://www.linkedin.com/company/tech-accent-creatives"
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/tech-accent-creatives"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -77,7 +77,7 @@ const Footer = () => {
                   >
                     <FaLinkedinIn />
                   </span>
-                </Link>
+                </a>
               </div>
 
               <div className="col-md-4 section-two">
@@ -88,7 +88,7 @@ const Footer = () => {
 
           <div className="footer-bottom text-center attribution mt-5">
             <p>
-              <p>Copyright 2023 - All Rights Reserved.</p>
+              <p>Copyright 2023 - All Rights Reserved</p>
             </p>
             <p className="">Created With 💚 by Lanre Adeolu</p>
           </div>

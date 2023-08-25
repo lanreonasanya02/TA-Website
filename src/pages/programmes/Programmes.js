@@ -30,7 +30,7 @@ const Programmes = () => {
         <div className="after-hero">
           <div className="container-lg after-hero-content">
             <h1>
-              Find The B<span>est Program</span>me For You!
+              Find The B<span>est Progr</span>am For You!
             </h1>
             <p>
               We know switching careers for newbies can be very daunting,
@@ -64,15 +64,16 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Acquire competitive edge as a JavaScript Full-stack web
-                      developer by learning web development using tools such as
-                      HTML5, CSS3/Bootstrap5, JavaScript, ReactJS, RESTful APIs,
-                      NodeJS, ExpressJS, MongoDB/Mongoose etc
+                      Dive into our JavaScript Full Stack Web Development
+                      Program. From frontend to backend, master the art of
+                      creating dynamic web apps. Don't miss out – register now
+                      for boundless coding opportunities
                     </p>
                   </div>
 
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">₦400,000</span>
+                    Price: <del>₦400,000</del>
+                    <span className="ms-2 lead">₦300,000</span>
                   </p>
                   <Link
                     to="/programmes/javascript-full-stack-web-development"
@@ -105,10 +106,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Learn Python for developing web applications for storing
-                      and manipulating complex data using tools such as HTML5,
-                      CSS3/Bootstrap5, Responsive Design, JavaScript, ReactJS,
-                      RESTful APIs, Python, Django etc
+                      Embark on a Python Full Stack Web Development journey.
+                      Gain prowess in crafting interactive user interfaces and
+                      robust server-side architecture. Enroll today to shape the
+                      digital landscape.
                     </p>
                   </div>
 
@@ -143,16 +144,56 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      This program is suitable for people who have little or
-                      zero knowledge about programming or how the web works.
-                      Become a Front-end engineer by learning front-end tools
-                      such as HTML5, CSS3/Bootstrap5, Responsive Design,
-                      JavaScript, ReactJS, RESTful APIs etc
+                      Step into Frontend Web Development. Craft captivating
+                      interfaces, responsive designs, and interactive
+                      experiences. Secure your spot and lead in shaping digital
+                      experiences!
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    Price:
-                    <span className="ms-2 lead">₦200,000</span>
+                    Price: <del>₦250,000</del>
+                    <span className="ms-2 lead">₦150,000</span>
+                  </p>
+                  <Link
+                    to="/programmes/front-end-web-development"
+                    className="card-button"
+                  >
+                    <span
+                      className="tt"
+                      data-bs-placement="bottom"
+                      title="Click here to enroll for this program"
+                    >
+                      Enroll
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* React Native */}
+              <div className="card ">
+                <div className="card-header category-cont">
+                  <p className="image-text">
+                    Beginner class, 8 weeks at 15hrs/week
+                  </p>
+                </div>
+
+                <div className="card-body card-info">
+                  <div className="title-container">
+                    <h5 className="card-title mb-3 fw-bold title">
+                      React Native <br />
+                      (Mobile Development)
+                    </h5>
+                  </div>
+                  <div className="body-container">
+                    <p className="card-text text-muted desc">
+                      Embark on an immersive React Native journey. Hone
+                      cross-platform app development, UI components, and native
+                      performance. Enroll to craft innovative mobile
+                      experiences.
+                    </p>
+                  </div>
+                  <p className="card-text price" id="price">
+                    Price: <span className="ms-2 lead">₦150,000</span>
                   </p>
                   <Link
                     to="/programmes/front-end-web-development"
@@ -173,27 +214,27 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 8 weeks at 15hrs/week
+                    Beginner class, 6 weeks at 15hrs/week
                   </p>
                 </div>
 
                 <div className="card-body card-info">
                   <div className="title-container">
                     <h5 className="card-title mb-3 fw-bold title">
-                      Back-End Web Development (NodeJS/Python)
+                      Back-End Web Development (NodeJS/Django)
                     </h5>
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Learn how to create back-end services with JavaScript or
-                      Python using tools such as NodeJS, ExpressJS,
-                      MongoDB/Mongoose, Python, Django etc for creating web
-                      servers, creating APIs and integrating backend services
-                      with frontend applications.
+                      Dive into Backend Development. Master server-side
+                      architecture, data management, and functionality. Secure
+                      your spot today and forge the backbone of tomorrow's
+                      digital landscape.
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">₦200,000</span>
+                    Price: <del>₦150,000</del>
+                    <span className="ms-2 lead">₦100,000</span>
                   </p>
                   <Link
                     to="/programmes/back-end-web-development"
@@ -214,7 +255,7 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 4 weeks at 15hrs/week
+                    Advanced class, 4 weeks at 15hrs/week
                   </p>
                 </div>
 
@@ -226,9 +267,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Immerse yourself in our intensive JavaScript training.
+                      Master the language's intricacies, DOM manipulation, and
+                      dynamic app creation. Enroll now to become a JavaScript
+                      virtuoso.
                     </p>
                   </div>
 
@@ -252,7 +294,7 @@ const Programmes = () => {
               <div className="card ">
                 <div className="card-header category-cont">
                   <p className="image-text">
-                    Beginner class, 4 weeks at 15hrs/week
+                    Advanced class, 4 weeks at 15hrs/week
                   </p>
                 </div>
 
@@ -264,11 +306,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Take your React skills up a notch by enrolling for this
-                      intensive ReactJS program. Here, you'd learn the skills
-                      you need to become a ReactJS professional. Master ReactJS
-                      hooks, router DOM, conditional rendering, props, ReactJS
-                      components etc
+                      Elevate your ReactJS skills in our intensive program.
+                      Master component-driven UI, state management, and modern
+                      web app development. Enroll for dynamic user experience
+                      excellence.
                     </p>
                   </div>
 
@@ -307,10 +348,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Become a product designer by acquiring foundational skills
-                      for User Interface/User Experience (UI/UX) for creating
-                      development-ready designs for mobile apps, desktop apps,
-                      or web platforms and for building a design portfolio.
+                      Delve into Product Design. Gain UX expertise, prototyping
+                      skills, and design aesthetics. Enroll now to shape
+                      user-centered solutions and create compelling digital
+                      experiences.
                     </p>
                   </div>
 
@@ -345,13 +386,14 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      ombucha chillwave njoenvjevnoerr nooewrnfveovne nernok
-                      fanny pack 3 wolf moon street art photo booth before they
-                      sold out organic viral.
+                      Embark on a creative journey in Graphics Design. Master
+                      visual communication, design principles, and unleash your
+                      artistic prowess. Enroll now to craft captivating and
+                      impactful visuals.
                     </p>
                   </div>
                   <p className="card-text price" id="price">
-                    Price: <span className="ms-2 lead">NA</span>
+                    Price: <span className="ms-2 lead">₦80,000</span>
                   </p>
                   <Link to="/programmes/enroll-course" className="card-button">
                     <span
@@ -381,10 +423,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      This program is structured to teach you the fundamental
-                      data science programming tools (Python, SQL, Git) and to
-                      guide you through what you need to know to start a career
-                      as a Data Scientist from the basics.
+                      Venture into Data Science. Acquire statistical analysis,
+                      machine learning, and data visualization skills. Enroll
+                      now to unlock insights, solve complex problems, and drive
+                      data-driven decisions
                     </p>
                   </div>
                   <p className="card-text price" id="price">
@@ -418,9 +460,10 @@ const Programmes = () => {
                   </div>
                   <div className="body-container">
                     <p className="card-text text-muted desc">
-                      Become a professional data analyst using tools such as
-                      Microsoft Excel and Power BI for data analysis,
-                      interpretations and visualizations
+                      Master Data Analysis with MS Excel and Power BI. Acquire
+                      statistical insights, visualization, and problem-solving
+                      skills. Enroll now to uncover trends, extract conclusions,
+                      and drive informed decisions.
                     </p>
                   </div>
                   <p className="card-text price" id="price">
