@@ -4,7 +4,7 @@ import "./NMediaQueries.css";
 import logo from "../../images/logo-white.png";
 import { useLocation, Link } from "react-router-dom";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
-import { FaUsers, FaGraduationCap } from "react-icons/fa";
+import { FaUsers, FaGraduationCap, FaHome } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 
@@ -93,6 +93,9 @@ const Navbar = () => {
             &times;
           </Link>
           <div className="sidenav-links">
+            <Link to="/" onClick={closeNav}>
+              <FaHome className="nav-icon" /> Home
+            </Link>
             <Link to="/why-choose-us" onClick={closeNav}>
               <BsFillInfoCircleFill className="nav-icon" /> Why Choose Us?
             </Link>
