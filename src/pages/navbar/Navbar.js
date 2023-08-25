@@ -93,10 +93,10 @@ const Navbar = () => {
             &times;
           </Link>
           <div className="sidenav-links">
-            <Link to="/" onClick={closeNav}>
+            <Link to="/why-choose-us" onClick={closeNav}>
               <BsFillInfoCircleFill className="nav-icon" /> Why Choose Us?
             </Link>
-            <Link to="/about" onClick={closeNav}>
+            <Link to="/programmes" onClick={closeNav}>
               <FaGraduationCap className="nav-icon" /> Programs
             </Link>
             <Link to="/contact" onClick={closeNav}>
@@ -120,7 +120,7 @@ const Navbar = () => {
                 src={logo}
                 alt="logo"
                 className="logo-mobile ms-3"
-                width="30%"
+                width="40%"
               />
             </div>
           </div>
