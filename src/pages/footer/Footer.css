@@ -5,7 +5,6 @@ footer {
 }
 
 footer .footer-body {
-  margin-top: 3rem;
   text-align: center;
 }
 
@@ -13,10 +12,6 @@ footer h6 {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 1rem;
-}
-
-footer .section-one {
-  text-align: left;
 }
 
 footer .section-two,
@@ -27,7 +22,6 @@ footer .attribution {
 footer .section-two {
   font-weight: bolder;
   font-size: 2rem;
-  text-align: right;
 }
 
 footer .section-three {

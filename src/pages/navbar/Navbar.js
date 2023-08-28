@@ -97,13 +97,16 @@ const Navbar = () => {
               <FaHome className="nav-icon" /> Home
             </Link>
             <Link to="/why-choose-us" onClick={closeNav}>
-              <BsFillInfoCircleFill className="nav-icon" /> Why Choose Us?
+              <BsFillInfoCircleFill className="nav-icon" /> About
             </Link>
             <Link to="/programmes" onClick={closeNav}>
               <FaGraduationCap className="nav-icon" /> Programs
             </Link>
             <Link to="/contact" onClick={closeNav}>
               <FiMapPin className="nav-icon" /> Contact
+            </Link>
+            <Link to="/contact" onClick={closeNav}>
+              <FiMapPin className="nav-icon" /> Hire Us
             </Link>
           </div>
         </div>

@@ -9,15 +9,19 @@
   }
 
   footer {
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
 
   footer .all-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
-    margin-top: 4rem;
-    /* text-align: center; */
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  footer .all-links .navbar-nav a {
+    font-size: 14px;
   }
 
   footer .links-column .socials,

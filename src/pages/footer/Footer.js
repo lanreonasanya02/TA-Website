@@ -15,12 +15,15 @@ const Footer = () => {
           <div className="footer-body">
             <div className="row align-items-center">
               <div className="col-md-4 section-one">
-                <p>
-                  At Tech Accent, our goal is to change lives and businesses
-                  through digital upskilling, developing the edge you need to
-                  conquer what’s next.
-                </p>
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="logo-mobile"
+                  width="45%"
+                />
               </div>
+
+              <div className="col-md-4 section-two">+234-813-6128-748</div>
 
               <div className="col-md-4 section-three">
                 <a
@@ -79,10 +82,6 @@ const Footer = () => {
                   </span>
                 </a>
               </div>
-
-              <div className="col-md-4 section-two">
-                <p>+234-813-6128-748</p>
-              </div>
             </div>
           </div>
 
@@ -90,7 +89,7 @@ const Footer = () => {
             <p>
               <p>Copyright 2023 - All Rights Reserved</p>
             </p>
-            <p className="">Created With 💚 by Lanre Adeolu</p>
+            <p className="">Created With ❤️ by Lanre Adeolu</p>
           </div>
         </div>
       </footer>
@@ -106,90 +105,92 @@ const Footer = () => {
           <div className="all-links">
             <div class="navbar-nav">
               <h6>Website links</h6>
-              <Link class="nav-link me-2 " aria-current="page" to="/#products">
-                Products
+              <Link className="nav-link" aria-current="page" to="/">
+                Home
               </Link>
-              <Link class="nav-link" to="/#expert">
-                Expert
+              <Link className="nav-link" to="/about">
+                About
               </Link>
-              <Link class="nav-link" to="/#exhibitions">
-                Exhibitions
+              <Link className="nav-link" to="/programs">
+                Programs
               </Link>
-              <Link class="nav-link" to="/news">
-                News
+              <Link className="nav-link" to="/contact">
+                Contact Us
               </Link>
-              <Link to="/contact" className="nav-link">
-                Contact
+              <Link className="nav-link" to="/hire-us">
+                Hire Us
               </Link>
             </div>
 
             <div className="text-center">
               <h6>Contact details</h6>
-              <p>+234-817-3551-411</p>
-              <p>+234-817-1375-644</p>
+              <p>+234-813-6128-748</p>
 
               <div className="links-column mt-5">
                 <h6>Our Socials</h6>
-                <Link
-                  to="mailto:adaogroup@outlook.com"
+                <a
+                  href="mailto:info@techaccentng.com"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
                 >
                   <span
                     className="tt"
-                    data-bs-placement="bottom"
+                    data-bs-placement="top"
                     title="Send us a mail"
                   >
                     <AiOutlineMail />
                   </span>
-                </Link>
-                <Link
-                  to="https://web.facebook.com/profile.php?id=100077348396583"
+                </a>
+                <a
+                  href="https://www.twitter.com/tech__accent"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
                 >
                   <span
                     className="tt"
-                    data-bs-placement="bottom"
+                    data-bs-placement="top"
                     title="Send Us A Tweet"
                   >
                     <FiTwitter />
                   </span>
-                </Link>
-                <Link
-                  to="https://www.instagram.com/adao_group"
+                </a>
+                <a
+                  href="https://www.instagram.com/tech__accent/"
                   target="_blank"
                   rel="noreferrer"
                   className="socials"
                 >
                   <span
                     className="tt"
-                    data-bs-placement="bottom"
+                    data-bs-placement="top"
                     title="Visit Us On Instagram"
                   >
                     <FiInstagram />
                   </span>
-                </Link>
-                <Link
-                  to="https://www.linkedin.com/in/adao-group-427b46217"
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/tech-accent-creatives"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span
                     className="tt"
-                    data-bs-placement="bottom"
+                    data-bs-placement="top"
                     title="Check Us Out On LinkedIn"
                   >
                     <FaLinkedinIn />
                   </span>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
-          <div className="mt-5 text-center">
-            <p>Copyright 2023 - All Rights Reserved.</p>
+          <div className="footer-bottom text-center attribution mt-4">
+            <p>
+              <p>Copyright 2023 - All Rights Reserved</p>
+            </p>
+            <p className="">Created With ❤️ by Lanre Adeolu</p>
           </div>
         </div>
       </footer>
